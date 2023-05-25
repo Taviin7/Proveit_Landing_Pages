@@ -1,0 +1,108 @@
+.section4 {
+  margin-bottom: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+
+}
+
+.font-Black {
+  text-align: left;
+  font-size: 75px;
+  opacity: 70%;
+  line-height: 45px;
+  line-height: 50%;
+  color: #000000;
+  font-family: 'raleway-extrabold';
+  font-weight: 650;
+}
+
+.font-Orange2 {
+  font-size: 90px;
+  line-height: 30%;
+  color: #ff623e;
+  z-index: 2;
+  margin-left: 5%;
+}
+
+.cardUse {
+  display: flex;
+  grid-template-columns: auto auto;
+  margin-top: 5%;
+  justify-content: center;
+  width: 73%;
+  height: 530px;
+  font-size: 25px;
+  background-color: rgba(141, 141, 141, 0.2);
+  border-radius: 70px;
+  box-shadow: 0px 15px 70px rgba(0, 0, 0, 0.45);
+  align-items: center;
+  align-content: flex-start;
+}
+
+.cardUse:hover {
+  box-shadow: 0px 15px 200px rgba(255, 68, 0, 0.45);
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.cardUse h2 {
+  color: #ff623e;
+  font-family: 'raleway-bold';
+}
+
+.imgdocarduse {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+  margin-right: -17.5%;
+}
+
+.imgdocarduse2 {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+}
+
+.imgdocarduse3 {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+  margin-right: -5%;
+  margin-left: 1%;
+}
+
+.imgdocarduse4 {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+  margin-right: -3%;
+  margin-left: 1%;
+}
+
+.cardUse p {
+  font-family: 'raleway';
+}
+
+.fontOrange3 {
+  font-size: 25px;
+  color: #ff623e;
+  font-family: 'raleway-bold';
+}
+
+.texto {
+  text-align: justify;
+  flex-direction: column;
+  display: flex;
+  padding-right: 5%;
+}
+
+.cardUse2 h2 {
+  color: #ff623e;
+  font-family: 'raleway-bold';
+}
