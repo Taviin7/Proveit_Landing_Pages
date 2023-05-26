@@ -7,7 +7,7 @@ export default function Objetivo() {
         <section className="section2">
             <div className="titleBox">
                 <h1 className="fontBlack">Qual o nosso</h1>
-                <h1 className="font-Orange">objetivo?</h1>
+                <h1 className="font-Orange2">objetivo?</h1>
                 <text className="font-Text">
                     Nosso objetivo por meio do nosso aplicativo é conseguir facilitar a
                     prática da culinária para os nossos usuários através das nossa

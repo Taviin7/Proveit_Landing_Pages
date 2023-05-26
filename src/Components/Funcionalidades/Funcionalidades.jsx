@@ -8,7 +8,7 @@ import user from "./icons/icon-user.png"
 
 export default function Funcionalidades() {
     return (
-        <section className="section3">
+        <section className="section3" >
             <div className="funcionalidades">
                 <div className="title">
                     <h1 className="font-White">As</h1>

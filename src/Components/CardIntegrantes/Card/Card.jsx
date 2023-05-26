@@ -1,14 +1,21 @@
 import React from "react";
 import "./Card.css";
 
-export default function Card({ integrante, imagem }) {
+
+export default function Card({integrante, função, imagem, linkedin, github, instagram}) {
   return (
     <div className="containerIntegrantes">
       <div className="imgIntegrantes">
-        <img src={imagem}></img>
+        <img src={imagem} />
       </div>
       <div className="cardIntegrantes">
-        <h1>{integrante}</h1>
+        <div className="infoIntegrantes">
+          <h1>{integrante}</h1>
+          <h4>{função}</h4>
+          <img src={github}/>
+          <img src={instagram}/>
+          <img src={linkedin}/>
+        </div>
       </div>
     </div>
   );
