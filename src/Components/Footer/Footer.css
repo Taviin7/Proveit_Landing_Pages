@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  height: 30%;
+  background: linear-gradient(90.05deg, #ff7152 0.04%, #ffb649 99.96%);
+}
+
+.footer img {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin-top: 15%;
+  margin-left: 50%;
+}
+
+.container-footer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.boxFooter {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50%;
+  height: 60%;
+  margin-left: 15%;
+  margin-top: 3%;
+  border-top: 7px solid #ffffffc4;
+  border-bottom: 7px solid #ffffffc4;
+}
