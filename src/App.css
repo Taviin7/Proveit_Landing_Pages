@@ -1,12 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .App {
   flex: 1;
   height: 110vh;
 }
+
 
 @font-face {
   font-family: 'raleway';

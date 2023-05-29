@@ -4,7 +4,6 @@
   align-items: center;
   flex-direction: column;
   background-color: #ffffff;
-
 }
 
 .font-Black {
@@ -14,7 +13,7 @@
   line-height: 45px;
   line-height: 50%;
   color: #000000;
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   font-weight: 650;
 }
 
@@ -31,7 +30,7 @@
   grid-template-columns: auto auto;
   margin-top: 5%;
   justify-content: center;
-  width: 73%;
+  width: 70%;
   height: 530px;
   font-size: 25px;
   background-color: rgba(141, 141, 141, 0.2);
@@ -49,7 +48,7 @@
 
 .cardUse h2 {
   color: #ff623e;
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
 }
 
 .imgdocarduse {
@@ -86,13 +85,13 @@
 }
 
 .cardUse p {
-  font-family: 'raleway';
+  font-family: "raleway";
 }
 
 .fontOrange3 {
   font-size: 25px;
   color: #ff623e;
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
 }
 
 .texto {
@@ -104,5 +103,5 @@
 
 .cardUse2 h2 {
   color: #ff623e;
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
 }
