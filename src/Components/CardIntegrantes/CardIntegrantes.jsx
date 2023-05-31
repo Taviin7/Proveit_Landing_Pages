@@ -2,6 +2,8 @@ import React from "react";
 import "./CardIntegrantes.css";
 import Card from "./Card/Card";
 import romario from "./Imgs/romario.png";
+import lucas from "./Imgs/Lucas.png";
+import marcos from "./Imgs/marcos.png"
 import instagram from "./Imgs/Instagram.png";
 import github from "./Imgs/GitHub.png";
 import linkedin from "./Imgs/LinkedIn.png";
@@ -22,9 +24,25 @@ export default function CardIntegrantes() {
       </div>
       <div className="integrantes">
         <Card
-          integrante="Romario"
+          integrante="Romario Silva"
           função="Frontend"
           imagem={romario}
+          github={github}
+          instagram={instagram}
+          linkedin={linkedin}
+        />
+        <Card
+          integrante="Lucas Ferreira"
+          função="Frontend"
+          imagem={lucas}
+          github={github}
+          instagram={instagram}
+          linkedin={linkedin}
+        />
+        <Card
+          integrante="Marcos Alves"
+          função="Frontend"
+          imagem={marcos}
           github={github}
           instagram={instagram}
           linkedin={linkedin}

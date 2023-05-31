@@ -20,11 +20,41 @@
 
 .boxFooter {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto ;
   width: 50%;
   height: 60%;
+  padding-top: 50px;
   margin-left: 15%;
-  margin-top: 3%;
+  margin-top: 1.7%;
   border-top: 7px solid #ffffffc4;
   border-bottom: 7px solid #ffffffc4;
+  justify-content: center;
+}
+
+.boxFooter text{
+  color: #fff;
+  font-family: "raleway";
+  font-weight: 300;
+  font-size: 20px;
+}
+
+text {
+  width: 200px;
+  height: 30px;
+  margin: 0 20px; 
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 8px;
+  list-style-type: none;
+  transition: 0.2s;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+}
+
+text:hover {
+  transition: 0.2s;
+  background-color: #fff;
+  color: #ff715282;
 }

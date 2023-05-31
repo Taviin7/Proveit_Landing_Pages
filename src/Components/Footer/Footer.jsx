@@ -10,10 +10,10 @@ export default function Footer() {
           <img src={Logo} />
         </div>
         <div className="boxFooter">
-          <text>Olá</text>
-          <text>Olá</text>
-          <text>Oi</text>
-          <text>Oi</text>
+          <text>Nosso Objetivo</text>
+          <text>Como Usar</text>
+          <text>Funcinalidades</text>
+          <text>Quem Somos</text>
         </div>
       </div>
     </section>
