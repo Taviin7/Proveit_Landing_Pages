@@ -27,8 +27,8 @@ export default function CardIntegrantes() {
           integrante="Romario Silva"
           função="Frontend"
           imagem={romario}
-          github={github}
-          instagram={instagram}
+          github={github} 
+          instagram={instagram} 
           linkedin={linkedin}
         />
         <Card
@@ -43,7 +43,7 @@ export default function CardIntegrantes() {
           integrante="Marcos Alves"
           função="Frontend"
           imagem={marcos}
-          github={github}
+          github={github} 
           instagram={instagram}
           linkedin={linkedin}
         />

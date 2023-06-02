@@ -32,28 +32,21 @@
 }
 
 .boxFooter text{
-  color: #fff;
-  font-family: "raleway";
-  font-weight: 300;
-  font-size: 20px;
-}
-
-text {
+  font-family: 'raleway-bold';
+  font-size: 25px;
   width: 200px;
   height: 30px;
   margin: 0 20px; 
   color: #fff;
-  font-weight: 500;
+  font-weight: 300;
   padding: 10px 15px;
   border-radius: 8px;
   list-style-type: none;
-  transition: 0.2s;
   text-align: center;
-  text-decoration: none;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
 }
 
-text:hover {
+.boxFooter text:hover {
   transition: 0.2s;
   background-color: #fff;
   color: #ff715282;
