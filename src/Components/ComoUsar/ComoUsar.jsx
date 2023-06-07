@@ -10,14 +10,15 @@ export default function ComoUsar() {
       <div>
         <div className="title">
           <h1 className="font-Black">Como</h1>
-          <h1 className="font-Orange2">usar?</h1>
+          <h1 className="font-Orange">usar?</h1>
         </div>
       </div>
+
+      {/* Imagem da Tela Inicial*/}
       <div className="cardUse">
-        <div className="imgdocarduse">
+        <div>
           <img src={Home} />
         </div>
-        {/* Imagem da Tela Inicial*/}
         <div className="texto">
           <h2>Tela Inicial</h2>
           <br />
@@ -26,7 +27,7 @@ export default function ComoUsar() {
             abas, por exemplo:
             <br />
           </p>
-          <text className="fontOrange3">
+          <text className="fontOrange">
             O que há de novo?
             <br />
             Popular hoje
@@ -37,11 +38,12 @@ export default function ComoUsar() {
           </text>
         </div>
       </div>
+
+      {/* Imagem da Tela Receita*/}
       <div className="cardUse">
-        <div className="imgdocarduse2">
+        <div>
           <img src={Home} />
         </div>
-        {/* Imagem da Tela Inicial*/}
         <div className="texto">
           <h2>Tela Receita</h2>
           <br />
@@ -54,11 +56,12 @@ export default function ComoUsar() {
           </p>
         </div>
       </div>
+
+      {/* Imagem da Tela de Busca*/}
       <div className="cardUse">
-        <div className="imgdocarduse3">
+        <div>
           <img src={Buscar} />
         </div>
-        {/* Imagem da Tela Inicial*/}
         <div className="texto">
           <h2>Tela de Pesquisa</h2>
           <br />
@@ -69,11 +72,12 @@ export default function ComoUsar() {
           </p>
         </div>
       </div>
+
+      {/* Imagem da Tela de Cadastro*/}
       <div className="cardUse">
-        <div className="imgdocarduse4">
+        <div>
           <img src={Cadastro} />
         </div>
-        {/* Imagem da Tela Inicial*/}
         <div className="texto">
           <h2>Tela de cadastro de receitas/dicas</h2>
           <br />
