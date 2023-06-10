@@ -7,6 +7,9 @@ import marcos from "./Imgs/marcos.png"
 import instagram from "./Imgs/Instagram.png";
 import github from "./Imgs/GitHub.png";
 import linkedin from "./Imgs/LinkedIn.png";
+import renan from "./Imgs/renan.png"
+import raul from "./Imgs/raul.png"
+import otavio from "./Imgs/otavio.png"
 
 export default function CardIntegrantes() {
   return (
@@ -22,13 +25,13 @@ export default function CardIntegrantes() {
         próprias receitas, trouxemos um novo modo de pesquisa para aqueles que
         não sabem o que cozinhar com o que tem na cozinha!
       </div>
-      <div className="integrantes">
+      <div className="integrantes_line1">
         <Card
           integrante="Romario Silva"
           função="Frontend"
           imagem={romario}
-          github={github} 
-          instagram={instagram} 
+          github={github}
+          instagram={instagram}
           linkedin={linkedin}
         />
         <Card
@@ -43,10 +46,41 @@ export default function CardIntegrantes() {
           integrante="Marcos Alves"
           função="Frontend"
           imagem={marcos}
-          github={github} 
+          github={github}
           instagram={instagram}
           linkedin={linkedin}
         />
+      </div>
+      <div className="integrantes_line2">
+        <Card
+          integrante="Renan Rodrigues"
+          função="Backend"
+          imagem={renan}
+          github={github}
+          instagram={instagram}
+          linkedin={linkedin}
+        />
+        <Card
+          integrante="Raul Murilo"
+          função="Backend"
+          imagem={raul}
+          github={github}
+          instagram={instagram}
+          linkedin={linkedin}
+        />
+        <Card
+          integrante="Otavio Lago"
+          função="Backend"
+          imagem={otavio}
+          github={github}
+          instagram={instagram}
+          linkedin={linkedin}
+        >
+          <a href="https://www.youtube.com/watch?v=0xRg6tmk424&list=RDfPwdWahrjgg&index=27&ab_channel=TTF" target="_blank">
+            <img src={github} />
+          </a>
+        </Card>
+
       </div>
     </section>
   );

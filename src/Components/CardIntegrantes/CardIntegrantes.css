@@ -17,9 +17,15 @@
   padding-top: 10%;
 }
 
-.integrantes {
+.integrantes_line1 {
   justify-content: end;
   color: #fff;
   display: flex;
-  margin-top: 20%;
+}
+
+.integrantes_line2 {
+  justify-content: end;
+  color: #fff;
+  display: flex;
+  margin-top: -3%;
 }

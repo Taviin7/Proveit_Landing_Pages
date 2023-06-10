@@ -12,9 +12,9 @@ export default function Card({integrante, função, imagem, linkedin, github, in
         <div className="infoIntegrantes">
           <h1>{integrante}</h1>
           <h4>{função}</h4>
-          <img src={github} href={linkgit}/>
-          <img src={instagram} href={linkinstagram}/>
-          <img src={linkedin} href={linklinkedin}/>
+          <img src={github} />
+          <img src={instagram} />
+          <img src={linkedin}/>
         </div>
       </div>
     </div>
