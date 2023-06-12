@@ -25,7 +25,7 @@ export default function CardIntegrantes() {
         próprias receitas, trouxemos um novo modo de pesquisa para aqueles que
         não sabem o que cozinhar com o que tem na cozinha!
       </div>
-      <div className="integrantes_line1">
+      <div className="boxIntegrantes">
         <Card
           integrante="Romario Silva"
           função="Frontend"
@@ -50,8 +50,7 @@ export default function CardIntegrantes() {
           instagram={instagram}
           linkedin={linkedin}
         />
-      </div>
-      <div className="integrantes_line2">
+      
         <Card
           integrante="Renan Rodrigues"
           função="Backend"

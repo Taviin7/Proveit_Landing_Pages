@@ -6,7 +6,7 @@ import GooglePlay from "./Imgs/getInGooglePlay.jpg";
 
 export default function Home() {
   return (
-    <section className="section1">
+    <section className="section1" id="Home">
       <div className="fundo">
         <header>
           <img className="logo" src={Logo} />
