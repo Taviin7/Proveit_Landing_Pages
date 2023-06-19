@@ -11,8 +11,6 @@
   background-size: cover;
 }
 
-
-
 .title {
   display: flex;
   flex-direction: column;
@@ -39,7 +37,9 @@
 }
 
 .funcionalidades img {
-  margin-left: 15%;
+  width: 493px;
+  height: 571px;
+  margin-left: 10%;
 }
 
 .card {

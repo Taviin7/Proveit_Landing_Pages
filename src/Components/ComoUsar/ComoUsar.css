@@ -6,6 +6,7 @@
   background-color: #ffffff;
 }
 
+
 .font-Black {
   text-align: left;
   font-size: 75px;
@@ -25,6 +26,10 @@
   margin-left: 5%;
 }
 
+.examples {
+  color: #ff623e;
+}
+
 .cardUse {
   display: flex;
   justify-content: center;
@@ -35,10 +40,28 @@
   align-content: flex-start;
 }
 
-.cardUse img{
+.cardUse:hover{
+  scale: 1.1;
+  transition: 0.5s
+}
+
+.cardUse:hover .previa{
+  opacity: 0;
+}
+
+.card-imagem{
+  margin: 3%;
+}
+
+.previa {
+  position:absolute;
+  background: white;
+}
+
+.cardUse img {
   display: flex;
   flex-direction: row;
-  width: 260px;
+  width: 240px;
   height: 500px;
   margin-right: -17.5%;
 }

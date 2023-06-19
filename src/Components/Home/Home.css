@@ -4,7 +4,6 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  
 }
 
 .fundo {
@@ -37,11 +36,10 @@ header {
   flex-direction: row;
   align-items: center;
   background: #97969649;
-  
 }
 
 .logo {
-  height: 150px;
+  height: 133px;
   align-items: self-start;
   margin-left: 5%;
   margin-right: 17%;
@@ -49,7 +47,7 @@ header {
 
 ul {
   display: flex;
-  font-family: 'raleway';
+  font-family: "raleway";
 }
 
 a {
@@ -62,7 +60,6 @@ a {
   transition: 0.2s;
   text-align: center;
   text-decoration: none;
-  
 }
 
 a:hover {
@@ -107,8 +104,6 @@ a:hover {
   display: flex;
   text-align: left;
   flex-direction: column;
-  align-items: left;
-  justify-content: flex-end;
 }
 
 .font-WhiteOpace {
@@ -122,7 +117,7 @@ a:hover {
   font-weight: 600;
 }
 
-.font-Orange {
+.fontOrange {
   font-size: 75px;
   line-height: 80%;
   color: #ff623e;
@@ -146,10 +141,10 @@ a:hover {
   color: #dddddd;
 }
 
-.getINGoogle {
-  width: 350px;
-  height: 130px;
-  margin-top: 10%;
+.BtnDownload {
+  width: 300px;
+  height: 100px;
+  margin-top: 7%;
 }
 
 .imgBox {

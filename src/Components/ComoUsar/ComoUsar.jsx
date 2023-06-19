@@ -1,8 +1,9 @@
 import React from "react";
 import "./ComoUsar.css";
-import Home from "./Imgs/home.png";
-import Buscar from "./Imgs/buscar.png";
-import Cadastro from "./Imgs/cadastro.png";
+import Home from "./Imgs/Home.png";
+import animeHome from "./Imgs/Home.gif";
+import Receita from "./Imgs/Receita.png";
+import animeReceita from "./Imgs/Receita.gif";
 
 export default function ComoUsar() {
   return (
@@ -16,8 +17,9 @@ export default function ComoUsar() {
 
       {/* Imagem da Tela Inicial*/}
       <div className="cardUse">
-        <div>
-          <img src={Home} />
+        <div className="card-imagem">
+          <img className="previa" src={Home} />
+          <img src={animeHome} />
         </div>
         <div className="texto">
           <h2>Tela Inicial</h2>
@@ -26,8 +28,9 @@ export default function ComoUsar() {
             Nesta tela é onde você encontrará uma mar de receitas, nas diversas
             abas, por exemplo:
             <br />
+            <br />
           </p>
-          <text className="fontOrange">
+          <text className="examples">
             O que há de novo?
             <br />
             Popular hoje
@@ -41,8 +44,9 @@ export default function ComoUsar() {
 
       {/* Imagem da Tela Receita*/}
       <div className="cardUse">
-        <div>
-          <img src={Home} />
+        <div className="card-imagem">
+          <img className="previa" src={Receita} />
+          <img src={animeReceita} />
         </div>
         <div className="texto">
           <h2>Tela Receita</h2>
@@ -59,8 +63,9 @@ export default function ComoUsar() {
 
       {/* Imagem da Tela de Busca*/}
       <div className="cardUse">
-        <div>
-          <img src={Buscar} />
+        <div className="card-imagem">
+          <img className="previa" src={Home} />
+          <img src={animeHome} />
         </div>
         <div className="texto">
           <h2>Tela de Pesquisa</h2>
@@ -75,8 +80,9 @@ export default function ComoUsar() {
 
       {/* Imagem da Tela de Cadastro*/}
       <div className="cardUse">
-        <div>
-          <img src={Cadastro} />
+        <div className="card-imagem">
+          <img className="previa" src={Home} />
+          <img src={animeHome} />
         </div>
         <div className="texto">
           <h2>Tela de cadastro de receitas/dicas</h2>
