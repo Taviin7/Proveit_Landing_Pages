@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "./proveitLogo.png";
-import getIN from "./getInGooglePlay.jpg";
+import Logo from "./proveitWhiteFade.png";
+import btnDownload from "./Download_button 2.png";
 
 export default function Footer() {
   return (
@@ -17,7 +17,7 @@ export default function Footer() {
           <a href="#quem-somos">Quem Somos</a>
         </div>
         <div className="download">
-          <img src={getIN} />
+          <img src={btnDownload} />
         </div>
       </div>
       <div className="copyright">

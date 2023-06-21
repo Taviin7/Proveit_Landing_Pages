@@ -4,6 +4,12 @@ import Home from "./Imgs/Home.png";
 import animeHome from "./Imgs/Home.gif";
 import Receita from "./Imgs/Receita.png";
 import animeReceita from "./Imgs/Receita.gif";
+import Perfil from "./Imgs/Perfil.png";
+import animePerfil from "./Imgs/Perfil.gif";
+import Pesquisa from "./Imgs/Pesquisa1.png";
+import animePesquisa from "./Imgs/Tela de Pesquisa.gif";
+import AddReceita from "./Imgs/Cad_Receita.png";
+import animeAddReceita from "./Imgs/Add_Receita.gif";
 
 export default function ComoUsar() {
   return (
@@ -64,11 +70,27 @@ export default function ComoUsar() {
       {/* Imagem da Tela de Busca*/}
       <div className="cardUse">
         <div className="card-imagem">
-          <img className="previa" src={Home} />
-          <img src={animeHome} />
+          <img className="previa" src={Perfil} />
+          <img src={animePerfil} />
         </div>
         <div className="texto">
-          <h2>Tela de Pesquisa</h2>
+          <h2>Tela de Perfil</h2>
+          <br />
+          <p>
+            No perfil é onde você verá seu histórico de receitas, seu dados e
+            poderá adicionar as suas receitas!
+          </p>
+        </div>
+      </div>
+
+      {/* Imagem da Tela de Cadastro*/}
+      <div className="cardUse">
+        <div className="card-imagem">
+          <img className="previa" src={Pesquisa} />
+          <img src={animePesquisa} />
+        </div>
+        <div className="texto">
+          <h2>Tela de pesquisa</h2>
           <br />
           <p>
             Nesta tela é onde você vai encontrar todas as receitas que temos no
@@ -78,14 +100,14 @@ export default function ComoUsar() {
         </div>
       </div>
 
-      {/* Imagem da Tela de Cadastro*/}
+      {/* Imagem da Tela de Cadastro Receita*/}
       <div className="cardUse">
         <div className="card-imagem">
-          <img className="previa" src={Home} />
-          <img src={animeHome} />
+          <img className="previa" src={AddReceita} />
+          <img src={animeAddReceita} />
         </div>
         <div className="texto">
-          <h2>Tela de cadastro de receitas/dicas</h2>
+          <h2>Tela de cadastro de receitas</h2>
           <br />
           <p>
             Como diz o próprio nome, caso você seja um cozinheiro nato, você

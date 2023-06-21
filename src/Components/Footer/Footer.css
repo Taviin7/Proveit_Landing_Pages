@@ -21,7 +21,7 @@ footer img {
 
 .boxFooter {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns:auto auto;
   width: 50%;
   height: 60%;
   padding-top: 50px;
@@ -54,15 +54,15 @@ footer img {
 }
 
 .download {
-  display: flex;
+  margin-top: 5%;
   align-items: center;
   justify-content: center;
 }
 
 .download img {
   display: flex;
-  width: 330px;
-  height: 120px;
+  width: 232px;
+  height: 75px;
   margin-left: 60%;
 }
 
