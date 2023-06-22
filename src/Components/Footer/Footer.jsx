@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "./proveitWhiteFade.png";
-import btnDownload from "./Download_button 2.png";
+import Logo from "./imgs/proveitWhiteFade.png";
+import btnDownload from "./imgs/Download_button 2.png";
 
 export default function Footer() {
   return (

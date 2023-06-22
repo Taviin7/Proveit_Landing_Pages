@@ -1,7 +1,7 @@
 footer {
   display: flex;
   height: 30%;
-  background: linear-gradient(90.05deg, #ff7152 0.04%, #ffb649 99.96%);
+  background: linear-gradient(90.05deg, #525252 0.04%, #a2a2a2 99.96%);
   flex-direction: column;
 }
 
@@ -45,12 +45,13 @@ footer img {
   list-style-type: none;
   text-align: center;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+  text-decoration: none;
 }
 
 .boxFooter a:hover {
   transition: 0.2s;
   background-color: #fff;
-  color: #ff715282;
+  color: #FF7152;
 }
 
 .download {

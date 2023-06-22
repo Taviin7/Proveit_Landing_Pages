@@ -49,14 +49,18 @@ export default function CardIntegrantes() {
             github={github}
             instagram={instagram}
             linkedin={linkedin}
+            linkinstagram={"https://www.instagram.com/_zroma_/"}
+            linkgithub={"https://github.com/romagrinho"}
+            linklinkedin={"https://br.linkedin.com/in/romario-silva-53371224b"}
           />
           <Card
             integrante="Lucas Ferreira"
             função="Frontend"
             imagem={lucas}
             github={github}
-            instagram={instagram}
             linkedin={linkedin}
+            linkgithub={"https://github.com/404lucas"}
+            linklinkedin={""}
           />
           <Card
             integrante="Marcos Alves"
@@ -64,7 +68,8 @@ export default function CardIntegrantes() {
             imagem={marcos}
             github={github}
             instagram={instagram}
-            linkedin={linkedin}
+            linkinstagram={"https://www.instagram.com/marquinhos.jpeg/"}
+            linkgithub={"https://github.com/marquinhosjpg"}
           />
           <Card
             integrante="Renan Rodrigues"
@@ -72,15 +77,15 @@ export default function CardIntegrantes() {
             imagem={renan}
             github={github}
             instagram={instagram}
-            linkedin={linkedin}
+            linkinstagram={"https://www.instagram.com/renanroliveira_/"}
+            linkgithub={"https://github.com/renan328"}
           />
           <Card
             integrante="Raul Murilo"
             função="Backend"
             imagem={raul}
-            github={github}
             instagram={instagram}
-            linkedin={linkedin}
+            linkinstagram={"https://www.instagram.com/rraul.mav/"}
           />
           <Card
             integrante="Otavio Lago"
@@ -89,6 +94,9 @@ export default function CardIntegrantes() {
             github={github}
             instagram={instagram}
             linkedin={linkedin}
+            linkinstagram={"https://www.instagram.com/taviin9_/"}
+            linkgithub={"https://github.com/Taviin7"}
+            linklinkedin={""}
           />
         </div>
       </div>

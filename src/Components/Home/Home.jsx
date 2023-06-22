@@ -12,10 +12,10 @@ export default function Home() {
           <img className="logo" src={Logo} />
           <nav>
             <ul>
-              <a href="#nosso-objetivo">Nosso Objetivo</a>
-              <a href="#funcionalidades">Funcionalidades</a>
-              <a href="#como-usar">Como Usar</a>
-              <a href="#quem-somos">Quem Somos</a>
+              <a href="#nosso-objetivo" className="ancoras">Nosso Objetivo</a>
+              <a href="#funcionalidades" className="ancoras">Funcionalidades</a>
+              <a href="#como-usar" className="ancoras">Como Usar</a>
+              <a href="#quem-somos" className="ancoras">Quem Somos</a>
               <a className="Baixar" href="">
                 Baixar
               </a>

@@ -21,13 +21,13 @@
 .font-Orange {
   font-size: 90px;
   line-height: 30%;
-  color: #ff623e;
+  color: #FF7152;
   z-index: 2;
   margin-left: 5%;
 }
 
 .examples {
-  color: #ff623e;
+  color: #FF7152;
 }
 
 .cardUse {
@@ -67,7 +67,7 @@
 }
 
 .cardUse h2 {
-  color: #ff623e;
+  color: #FF7152;
   font-family: "raleway-bold";
 }
 
@@ -83,7 +83,7 @@
 
 .fontOrange {
   font-size: 25px;
-  color: #ff623e;
+  color: #FF7152;
   font-family: "raleway-bold";
 }
 
