@@ -21,18 +21,19 @@ export default function CardIntegrantes() {
         <h1 className="font-OrangeAre">somos?</h1>
       </div>
       <div className="textofinal">
-        <p>O ProveIt! nasceu em um TCC proposto na ETEC em 2022, com a ideia
-        principal de facilitar os processos culinários das pessoas, trazendo
-        mais praticidade e agilidade.
-        <br />
-        <br />
-        Pesquisamos e procuramos diversas culinárias diferentes, pra ter uma
-        melhor abrangência de publico, além das pessoas poderem adicionar suas
-        próprias receitas, trouxemos um novo modo de pesquisa para aqueles que
-        não sabem o que cozinhar com o que tem na cozinha!
+        <p>
+          O ProveIt! nasceu em um TCC proposto na ETEC em 2022, com a ideia
+          principal de facilitar os processos culinários das pessoas, trazendo
+          mais praticidade e agilidade.
+          <br />
+          <br />
+          Pesquisamos e procuramos diversas culinárias diferentes, pra ter uma
+          melhor abrangência de publico, além das pessoas poderem adicionar suas
+          próprias receitas, trouxemos um novo modo de pesquisa para aqueles que
+          não sabem o que cozinhar com o que tem na cozinha!
         </p>
-        <img src={devlare} id="img1"/>
-        <img src={proveit} id="img2"/>
+        <img src={devlare} id="img1" />
+        <img src={proveit} id="img2" />
       </div>
 
       <div className="container-ourteam">
