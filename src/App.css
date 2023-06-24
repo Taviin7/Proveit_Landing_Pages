@@ -15,12 +15,28 @@
   src: local('raleway'), url(./fonts/Raleway/static/Raleway-Medium.ttf) format('truetype');
 }
 
+
+@font-face {
+  font-family: 'raleway-semibold';
+  src: local('raleway-semibold'), url(./fonts/Raleway/static/Raleway-SemiBold.ttf ) format('truetype');
+}
+
+@font-face {
+  font-family: 'raleway-bold';
+  src: local('raleway-bold'), url(./fonts/Raleway/static/Raleway-Bold.ttf ) format('truetype');
+}
+
 @font-face {
   font-family: 'raleway-extrabold';
   src: local('raleway-extrabold'), url(./fonts/Raleway/static/Raleway-ExtraBold.ttf ) format('truetype');
 }
 
 @font-face {
-  font-family: 'raleway-bold';
-  src: local('raleway-bold'), url(./fonts/Raleway/static/Raleway-Bold.ttf ) format('truetype');
+  font-family: 'raleway-black';
+  src: local('raleway-black'), url(./fonts/Raleway/static/Raleway-Black.ttf ) format('truetype');
+}
+
+@font-face {
+  font-family: 'raleway-medium';
+  src: local('raleway-medium'), url(./fonts/Raleway/static/Raleway-Medium.ttf ) format('truetype');
 }

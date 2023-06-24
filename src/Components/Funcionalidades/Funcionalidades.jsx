@@ -12,7 +12,7 @@ export default function Funcionalidades() {
       <div className="funcionalidades">
         <div className="title">
           <h1 className="font-White">As</h1>
-          <h1 className="font-Orange2">Funcionalidades</h1>
+          <h1 className="font-Orange2">funcionalidades</h1>
         </div>
         <img src={Celulares} />
       </div>
@@ -21,7 +21,9 @@ export default function Funcionalidades() {
         <div class="item1">
           <h1>
             <img src={add} />
-            Adicionar Receitas
+            <div className="cardtext">
+              Adicionar Receitas
+            </div>
           </h1>
           <text>
             Essa tela é destinada aos usuários que além de aprender novas
@@ -32,7 +34,9 @@ export default function Funcionalidades() {
         <div class="item2">
           <h1>
             <img src={fav} />
-            Favoritos
+            <div className="cardtext">
+              Favoritos
+            </div>
           </h1>
           <text>
             Na tela favoritos você pode salvar as receitas que você mais gostou
@@ -42,7 +46,9 @@ export default function Funcionalidades() {
         <div class="item3">
           <h1>
             <img src={user} />
+            <div className="cardtext">
             Perfil
+            </div>
           </h1>
           <text>
             No Perfil, você poderá colocar algumas informações que você gostaria
@@ -52,7 +58,9 @@ export default function Funcionalidades() {
         <div class="item4">
           <h1>
             <img src={search} />
+            <div className="cardtext">
             Buscar
+            </div>
           </h1>
           <text>
             A tela buscar é uma das principais, onde você poderá tanto

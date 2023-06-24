@@ -17,16 +17,21 @@ export default function Home() {
               <a href="#como-usar" className="ancoras">Como Usar</a>
               <a href="#quem-somos" className="ancoras">Quem Somos</a>
               <a className="Baixar" href="">
-                Baixar
+                Baixe o app
               </a>
             </ul>
           </nav>
         </header>
         <div className="container">
-          <div className="titleBox">
+          <div className="titleBox1">
             <h1 className="font-WhiteOpace">A praticidade</h1>
-            <h1 className="fontOrange">na palma da </h1>
-            <h1 className="font-White">sua mão!</h1>
+            <h1 className="fontOrange">na palma </h1>
+            <div className="titleBox2">
+              <h1 className="font-White">da sua</h1>
+              <div className="wordmao">
+                <h1 className="fontOrange">mão!</h1>
+              </div>
+            </div>
             <span className="subtitleBox">
               Nunca foi tão fácil encontrar uma receita!
             </span>

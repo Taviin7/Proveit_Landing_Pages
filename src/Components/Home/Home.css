@@ -50,10 +50,11 @@ ul {
 }
 
 .ancoras {
+  font-size: large;
   margin: 0 20px;
   color: #fff;
-  font-weight: 500;
-  padding: 10px 15px;
+  font-family: 'raleway-semibold';
+  padding: 15px;
   border-radius: 8px;
   list-style-type: none;
   transition: 0.2s;
@@ -69,10 +70,10 @@ ul {
 
 .Baixar {
   color: #fff;
-  padding: 10px 25px;
+  padding: 18px 35px;
   background-color: #FF7152;
-  border-radius: 100px;
-  width: 100px;
+  border-radius: 40px;
+  font-size: large;
   text-align: center;
   list-style-type: none;
   box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
@@ -81,6 +82,7 @@ ul {
   transition: 0.2;
   margin-left: 10cm;
   text-decoration: none;
+  font-family: "raleway-extrabold";
 }
 
 .Baixar:hover {
@@ -89,7 +91,7 @@ ul {
   color: #ff715282;
 }
 
-.container {
+.container{
   width: 100%;
   height: 800px;
   display: flex;
@@ -98,15 +100,30 @@ ul {
   justify-content: space-between;
 }
 
-.titleBox {
+.titleBox1 {
   flex: 50%;
   margin-left: 5%;
   display: flex;
   text-align: left;
   flex-direction: column;
+  justify-content: center;
+}
+
+.titleBox2{
+  width: 66%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wordmao{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .font-WhiteOpace {
+  font-family: 'raleway-bold';
   text-align: left;
   font-style: Medium;
   font-size: 50px;
@@ -121,7 +138,8 @@ ul {
   font-size: 75px;
   line-height: 80%;
   color: #FF7152;
-  font-family: "raleway-extrabold";
+  font-family: "raleway-black";
+  font-style: inherit;
   z-index: 2;
 }
 
@@ -134,6 +152,7 @@ ul {
 }
 
 .subtitleBox {
+  font-family: 'raleway-medium';
   font-style: Medium;
   font-size: 150%;
   opacity: 80%;
@@ -142,9 +161,9 @@ ul {
 }
 
 .BtnDownload {
-  width: 300px;
-  height: 100px;
-  margin-top: 7%;
+  width: 280px;
+  height: 90px;
+  margin-top: 15%;
 }
 
 .imgBox {

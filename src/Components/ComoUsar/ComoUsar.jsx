@@ -1,6 +1,6 @@
 import React from "react";
 import "./ComoUsar.css";
-import Home from "./Imgs/Home.png";
+import Home from "./Imgs/home.png";
 import animeHome from "./Imgs/Home.gif";
 import Receita from "./Imgs/Receita.png";
 import animeReceita from "./Imgs/Receita.gif";
