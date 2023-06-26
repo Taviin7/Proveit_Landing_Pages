@@ -20,7 +20,8 @@ export default function CardIntegrantes() {
         <h1 className="font-WhiteWe">Quem</h1>
         <h1 className="font-OrangeAre">somos?</h1>
       </div>
-      <div className="textofinal">
+      <div className="textofinal">       
+        <div className="textfinal">
         <p>
           O ProveIt! nasceu em um TCC proposto na ETEC em 2022, com a ideia
           principal de facilitar os processos culinários das pessoas, trazendo
@@ -32,14 +33,15 @@ export default function CardIntegrantes() {
           próprias receitas, trouxemos um novo modo de pesquisa para aqueles que
           não sabem o que cozinhar com o que tem na cozinha!
         </p>
+        </div>
         <img src={devlare} id="img1" />
         <img src={proveit} id="img2" />
       </div>
 
       <div className="container-ourteam">
         <div className="title-ourteam">
-          <h1 className="font-WhiteOur">Our</h1>
-          <h1 className="font-OrangeTeam">TEAM</h1>
+          <h1 className="font-WhiteOur2">Our</h1>
+          <h1 className="font-OrangeTeam2">TEAM</h1>
         </div>
 
         <div className="boxIntegrantes">

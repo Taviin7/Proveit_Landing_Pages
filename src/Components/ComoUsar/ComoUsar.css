@@ -7,27 +7,24 @@
 }
 
 
-.font-Black {
-  text-align: left;
-  font-size: 75px;
-  opacity: 70%;
-  line-height: 45px;
-  line-height: 50%;
-  color: #000000;
-  font-family: "raleway-extrabold";
-  font-weight: 650;
+.section4 .font-Black {
+  margin-right: 46%;
+  font-size: 130px;
+  color: #505050;
+
 }
 
-.font-Orange {
-  font-size: 90px;
-  line-height: 30%;
+.section4 .font-Orange {
+  font-size: 130px;
+  margin-top: -17%;
   color: #FF7152;
   z-index: 2;
-  margin-left: 5%;
+  margin-left: 19.3%;
 }
 
-.examples {
+.section4 .examples {
   color: #FF7152;
+  font-size: 30px;
 }
 
 .cardUse {
@@ -67,13 +64,14 @@
 }
 
 .cardUse h2 {
-  color: #FF7152;
-  font-family: "raleway-bold";
+  color: #505050;
+  font-family: "raleway-extrabold";
 }
 
 .cardUse p {
-  font-family: "raleway";
-  font-size: 20px;
+
+  font-family: "raleway-regular";
+  font-size: 30px;
 }
 
 .cardUse text {
@@ -81,24 +79,55 @@
   font-size: 20px;
 }
 
-.fontOrange {
+.section4 .fontOrange {
   font-size: 25px;
   color: #FF7152;
   font-family: "raleway-bold";
 }
 
-.texto {
-  text-align: justify;
-  flex-direction: column;
+.section4 .texto {
   display: flex;
+  flex-direction: column;  
+  text-align: justify;
   padding-right: 5%;
 }
 
 .section4 .title {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  width: 600px;
   font-family: "raleway-extrabold";
-  margin-bottom: 30%;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+}
+
+.section4 .containermain{
+  display: flex;
+  flex-direction: row;
+}
+
+.section4 .retangle{
+  background-color: #FF7152;
+  width: 110px;
+  height: 140px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.section4 .retangle2{
+  background-color: #FF7152;
+  width: 84px;
+  height: 10px;
+  margin-top: -10px;
+  margin-right: 40px; 
+}
+
+.texts p{
+  font-size: 22px;
+  font-family: "raleway-light" ;
+}
+
+.texts h4{
+  margin-top: 14px;
+  font-family: "raleway-medium" ;
+  color: #505050;
 }

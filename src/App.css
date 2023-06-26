@@ -40,3 +40,13 @@
   font-family: 'raleway-medium';
   src: local('raleway-medium'), url(./fonts/Raleway/static/Raleway-Medium.ttf ) format('truetype');
 }
+
+@font-face {
+  font-family: 'raleway-regular';
+  src: local('raleway-regular'), url(./fonts/Raleway/static/Raleway-Regular.ttf ) format('truetype');
+}
+
+@font-face {
+  font-family: 'raleway-light';
+  src: local('raleway-light'), url(./fonts/Raleway/static/Raleway-Light.ttf ) format('truetype');
+}

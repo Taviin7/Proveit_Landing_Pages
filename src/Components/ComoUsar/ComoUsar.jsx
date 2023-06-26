@@ -14,13 +14,10 @@ import animeAddReceita from "./Imgs/Add_Receita.gif";
 export default function ComoUsar() {
   return (
     <section className="section4" id="como-usar">
-      <div>
-        <div className="title">
-          <h1 className="font-Black">Como</h1>
-          <h1 className="font-Orange">usar?</h1>
-        </div>
+      <div className="title">
+        <h1 className="font-Black">Como</h1>
+        <h1 className="font-Orange">usar?</h1>
       </div>
-
       {/* Imagem da Tela Inicial*/}
       <div className="cardUse">
         <div className="card-imagem">
@@ -92,11 +89,26 @@ export default function ComoUsar() {
         <div className="texto">
           <h2>Tela de pesquisa</h2>
           <br />
+          <div className="containermain">
+          <div className="retangle2"></div>
           <p>
             Nesta tela é onde você vai encontrar todas as receitas que temos no
             nosso aplicativo, podendo até usar filtros para facilitar sua
             pesquisa!
           </p>
+          </div>
+          <div className="containermain">
+            <div className="retangle"></div>
+            <div className="texts">
+                <h4>Pesquisa por ingredientes</h4>
+                <p>
+                  Imagine que você tem um certo numero de ingredientes dentro da sua
+                  casa, e você não tem ideia do que fazer com eles, na barra de “<u>Pesquisa
+                  por ingredientes</u>” você irá colocar os igredientes, e nós iremos te mandar
+                  receitas com esses igredientes!
+                </p>
+            </div>
+          </div>
         </div>
       </div>
 

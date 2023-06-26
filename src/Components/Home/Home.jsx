@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-scroll';
 import "./Home.css";
 import Logo from "./Imgs/proveitLogo.png";
 import Man from "./Imgs/negocomendo.png";
@@ -12,10 +13,10 @@ export default function Home() {
           <img className="logo" src={Logo} />
           <nav>
             <ul>
-              <a href="#nosso-objetivo" className="ancoras">Nosso Objetivo</a>
-              <a href="#funcionalidades" className="ancoras">Funcionalidades</a>
-              <a href="#como-usar" className="ancoras">Como Usar</a>
-              <a href="#quem-somos" className="ancoras">Quem Somos</a>
+              <Link to="nosso-objetivo" className="ancoras" smooth={true} duration={600}>Nosso Objetivo</Link>
+              <Link to="funcionalidades" className="ancoras" smooth={true} duration={600}>Funcionalidades</Link>
+              <Link to="como-usar" className="ancoras" smooth={true} duration={600}>Como Usar</Link>
+              <Link to="quem-somos" className="ancoras" smooth={true} duration={600}>Quem Somos</Link>
               <a className="Baixar" href="">
                 Baixe o app
               </a>
