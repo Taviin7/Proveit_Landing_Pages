@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import CardIntegrantes from './Components/CardIntegrantes/CardIntegrantes';
 import ComoUsar from './Components/ComoUsar/ComoUsar';
@@ -8,6 +9,7 @@ import Objetivo from './Components/Objetivo/Objetivo';
 
 
 function App() {
+  
   return (
     <div className="App">
       <Home />

@@ -6,8 +6,9 @@ import Man from "./Imgs/negocomendo.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
 export default function Home() {
+
   return (
-    <section className="section1" id="Home">
+    <section id="Home">
       <div className="fundo">
         <header>
           <img className="logo" src={Logo} />
@@ -46,3 +47,4 @@ export default function Home() {
     </section>
   );
 }
+
