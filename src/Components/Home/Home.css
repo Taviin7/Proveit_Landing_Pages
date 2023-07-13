@@ -1,3 +1,184 @@
+.section1 {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.fundo {
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+}
+
+.fundo::before {
+  content: "";
+  background-image: url("./Imgs/mesafundo.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  filter: brightness(25%) opacity(90%);
+}
+
+
+header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+}
+
+.logo {
+  height: 90%;
+  margin-left: 5%; 
+  margin-right: 10%; 
+} 
+
+ul {
+  display: flex;
+  font-family: "raleway";
+}
+
+.ancoras {
+  font-size: 24;
+  margin: 15px;
+  color: #fff;
+  font-family: 'raleway-semibold';
+  padding: 5px;
+  border-radius: 8px;
+ /*  list-style-type: none; */
+  transition: 0.2s;
+  text-align: center;
+  /* text-decoration: none; */
+}
+
+.ancoras:hover {
+  transition: 0.2s;
+  background-color: #fff;
+  color: #FF7152;
+}
+
+.section1 .baixeoapp {
+  color: #fff;
+/*   padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%; */
+  background-color: #FF7152;
+  border-radius: 40px;
+  font-size: 24;
+  text-align: center;
+  /* list-style-type: none; */
+ /*  box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1); */
+  transition: 0.2;
+ /*  margin-left: 10cm; */
+  text-decoration: none;
+  font-family: "raleway-extrabold";
+}
+
+.section1 .baixeoapp:hover {
+  transition: 0.2;
+  background-color: #fff;
+  color: #FF7152;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.titleBox1 {
+  flex: 50%;
+  margin-left: 5%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleBox2{
+  width: 66%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wordmao{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.font-WhiteOpace {
+  font-family: 'raleway-bold';
+  text-align: left;
+  font-style: Medium;
+  font-size: 50px;
+  opacity: 70%;
+  line-height: 45px;
+  line-height: 100%;
+  color: #fff;
+  font-weight: 600;
+}
+
+.fontOrange {
+  font-size: 75px;
+  line-height: 80%;
+  color: #FF7152;
+  font-family: "raleway-black";
+  font-style: inherit;
+  z-index: 2;
+}
+
+.font-White {
+  font-size: 75px;
+  opacity: 90%;
+  line-height: 45px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.subtitleBox {
+  font-family: 'raleway-medium';
+  font-style: Medium;
+  font-size: 150%;
+  opacity: 80%;
+  margin-top: 5%;
+  color: #dddddd;
+}
+
+.BtnDownload {
+  width: 280px;
+  height: 90px;
+  margin-top: 15%;
+}
+
+.imgBox {
+  display: flex;
+/*   margin-left: 20%; */
+  margin-right: 5%;
+  justify-content: flex-end;
+}
+
+.section1 .imgBox img {
+  height: 44%;
+  width: 44%;
+}
+
+
 /* Estilos para largura de tela menor ou igual a 768 pixels (celular)*/
 @media (max-width: 768px) {
   .section1 {
@@ -184,193 +365,6 @@
 
 /* Estilos para tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* Adicione aqui os estilos para tablet */
+  
 }
 
-/* Estilos para notebook */
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .section1 {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .fundo {
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .fundo::before {
-    content: "";
-    background-image: url("./Imgs/mesafundo.jpg");
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    z-index: -1;
-    filter: brightness(25%) opacity(90%);
-  }
-  
-  header {
-    width: 100%;
-    height: 15%;
-    border-radius: 0px 0px 0px 110px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .logo {
-    height: 133px;
-    align-items: self-start;
-    margin-left: 5%;
-    margin-right: 17%;
-  }
-  
-  ul {
-    display: flex;
-    font-family: "raleway";
-  }
-  
-  .ancoras {
-    font-size: large;
-    margin: 0 20px;
-    color: #fff;
-    font-family: 'raleway-semibold';
-    padding: 15px;
-    border-radius: 8px;
-    list-style-type: none;
-    transition: 0.2s;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .ancoras:hover {
-    transition: 0.2s;
-    background-color: #fff;
-    color: #FF7152;
-  }
-  
-  .Baixar {
-    color: #fff;
-    padding: 18px 35px;
-    background-color: #FF7152;
-    border-radius: 40px;
-    font-size: large;
-    text-align: center;
-    list-style-type: none;
-    box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
-    transition: 0.2;
-    margin-left: 10cm;
-    text-decoration: none;
-    font-family: "raleway-extrabold";
-  }
-  
-  .Baixar:hover {
-    transition: 0.2;
-    background-color: #fff;
-    color: #ff715282;
-  }
-  
-  .container{
-    width: 100%;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .titleBox1 {
-    flex: 50%;
-    margin-left: 5%;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .titleBox2{
-    width: 66%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .wordmao{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-  }
-  
-  .font-WhiteOpace {
-    font-family: 'raleway-bold';
-    text-align: left;
-    font-style: Medium;
-    font-size: 50px;
-    opacity: 70%;
-    line-height: 45px;
-    line-height: 100%;
-    color: #fff;
-    font-weight: 600;
-  }
-  
-  .fontOrange {
-    font-size: 75px;
-    line-height: 80%;
-    color: #FF7152;
-    font-family: "raleway-black";
-    font-style: inherit;
-    z-index: 2;
-  }
-  
-  .font-White {
-    font-size: 75px;
-    opacity: 90%;
-    line-height: 45px;
-    line-height: 100%;
-    color: #fff;
-  }
-  
-  .subtitleBox {
-    font-family: 'raleway-medium';
-    font-style: Medium;
-    font-size: 150%;
-    opacity: 80%;
-    margin-top: 5%;
-    color: #dddddd;
-  }
-  
-  .BtnDownload {
-    width: 280px;
-    height: 90px;
-    margin-top: 15%;
-  }
-  
-  .imgBox {
-    display: flex;
-    margin-left: 20%;
-    margin-right: 5%;
-    justify-content: flex-end;
-  }
-  
-  .imgBox img {
-    height: 800px;
-    width: 800px;
-  }
-}
-
-/* Estilos para computador */
-@media (min-width: 1280px) {
-  /* Adicione aqui os estilos para computador */
-}

@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from 'react-scroll';
 import "./Home.css";
 import Logo from "./Imgs/proveitLogo.png";
-import Man from "./Imgs/negocomendo.png";
+import Men from "./Imgs/negocomendo.png";
+import men2 from "./Imgs/negocomendo2.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
 export default function Home() {
 
   return (
-    <section id="Home">
+    <section className="section1" id="Home">
       <div className="fundo">
         <header>
           <img className="logo" src={Logo} />
@@ -18,7 +19,7 @@ export default function Home() {
               <Link to="funcionalidades" className="ancoras" smooth={true} duration={600}>Funcionalidades</Link>
               <Link to="como-usar" className="ancoras" smooth={true} duration={600}>Como Usar</Link>
               <Link to="quem-somos" className="ancoras" smooth={true} duration={600}>Quem Somos</Link>
-              <a className="Baixar" href="">
+              <a className="baixeoapp" href="">
                 Baixe o app
               </a>
             </ul>
@@ -40,7 +41,7 @@ export default function Home() {
             <img className="BtnDownload" src={BtnDownload} />
           </div>
           <div className="imgBox">
-            <img src={Man} />
+            <img src={Men}  />
           </div>
         </div>
       </div>
