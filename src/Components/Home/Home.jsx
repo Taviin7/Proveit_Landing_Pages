@@ -3,7 +3,6 @@ import { Link } from 'react-scroll';
 import "./Home.css";
 import Logo from "./Imgs/proveitLogo.png";
 import Men from "./Imgs/negocomendo.png";
-import men2 from "./Imgs/negocomendo2.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
 export default function Home() {
@@ -13,8 +12,8 @@ export default function Home() {
       <div className="fundo">
         <header>
           <img className="logo" src={Logo} />
-          <nav>
-            <ul>
+          <nav className="navegation">
+            <div className="container_nav">
               <Link to="nosso-objetivo" className="ancoras" smooth={true} duration={600}>Nosso Objetivo</Link>
               <Link to="funcionalidades" className="ancoras" smooth={true} duration={600}>Funcionalidades</Link>
               <Link to="como-usar" className="ancoras" smooth={true} duration={600}>Como Usar</Link>
@@ -22,7 +21,7 @@ export default function Home() {
               <a className="baixeoapp" href="">
                 Baixe o app
               </a>
-            </ul>
+            </div>
           </nav>
         </header>
         <div className="container">
@@ -41,7 +40,7 @@ export default function Home() {
             <img className="BtnDownload" src={BtnDownload} />
           </div>
           <div className="imgBox">
-            <img src={Men}  />
+            <img src={Men} />
           </div>
         </div>
       </div>
