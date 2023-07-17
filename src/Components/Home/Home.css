@@ -109,7 +109,7 @@ header {
 }
 
 .titleBox2{  
-  width: 65.5%;
+  width: 59.3%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -159,13 +159,13 @@ header {
 }
 
 .imgBox {
-  width: 29%;
+  width: 20%;
+  margin-right: 25%;
 }
 
 .section1 .imgBox img {
   height: 0%;
-  width: 180%;
-  margin-right: 10%;
+  width: 220%;
 }
 
 
