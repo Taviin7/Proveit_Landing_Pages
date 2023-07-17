@@ -124,6 +124,7 @@ header {
 
 .font-WhiteOpace {
   font-family: 'raleway-bold';
+  line-height: 50%;
   font-size: 250%;
   opacity: 70%;
   color: #fff;
@@ -296,6 +297,7 @@ header {
   
   .font-WhiteOpace {
     font-family: 'raleway-bold';
+    line-height: 50%;
     font-size: 250%;
     opacity: 70%;
     color: #fff;

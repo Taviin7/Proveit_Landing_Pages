@@ -23,12 +23,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between ;
-  height: 30%;
-  width: 50%;
-  text-align: justify;
+  height: 23%;
+  width: 55%;
   margin-left: 15%;
-  font-family: "raleway-extrabold";
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+  margin-bottom: 7%;
 }
 
 .section2 .titleBox2{
@@ -38,32 +36,30 @@
 }
 
 .section2 .fontBlack {
- /*  text-align: left; */
-  font-size: 100px;
+  font-size: 392%;
   line-height: 50%;
   color: #505050;
-  font-family: "raleway-extrabold";
+  font-family: "raleway-bold";
   z-index: 3;
 }
 
 .section2 .font-Orange2 {
   display: flex;
-  font-size: 120px;
-  line-height: 80%;
+  font-size: 530%;
+  line-height: 70%;
   color: #FF7152;
   font-family: "raleway-black";
-  margin-left: 80px;
+  margin-left: 10%;
 }
 
 .font-Text {
   font-family: 'raleway-medium';
-  font-size: 30px;
-  line-height: 130%;
+  font-size: 130%;
   color: #707070;
-  width: 650px;
-  height: 100px;
-  margin-top: 5%;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+  width: 65%;
+  height: 10%;
+  text-align: justify;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .imgBox {
@@ -77,12 +73,18 @@
   display: flex;
   justify-content: flex-end;
   background: linear-gradient(#FF7152, #ffc852f5);
-  border-radius: 100px 0px 0px 400px;
+  border-radius: 100px 0px 0px 280px;
   width: 35%;
   box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.19);
 }
 
-.imgBox img {
-  height: 800px;
-  width: 800px;
+/* Estilos para largura de tela menor ou igual a 768 pixels (celular)*/
+@media (max-width: 768px) {
+  
 }
+
+/* Estilos para tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
