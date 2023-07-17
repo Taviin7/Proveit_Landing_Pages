@@ -2,7 +2,6 @@
   height: 100vh;
   width: 100%;
   display: flex;
-/*   flex-direction: column; */
 }
 
 .fundo {
@@ -49,7 +48,6 @@ header {
 }
 
 .container_nav{
-  width: 100%;
   height: 20%;
 }
 
@@ -88,28 +86,34 @@ header {
   color: #FF7152;
 }
 
-.container{
+.container_main{
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
-.section1 .titleBox1 {
+.section1 .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 55%;
-  margin-left: 5%;
+  width: 60%;
+  margin-left: 8%;
+}
+
+.section1 .titleBox1{  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 51%;
 }
 
 .titleBox2{  
-  width: 64%;
+  width: 65.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: -2%;
 }
 
 .wordmao{
@@ -120,7 +124,6 @@ header {
 
 .font-WhiteOpace {
   font-family: 'raleway-bold';
-  text-align: left;
   font-size: 250%;
   opacity: 70%;
   color: #fff;
@@ -130,21 +133,23 @@ header {
   font-size: 380%;
   color: #FF7152;
   font-family: "raleway-black";
-  /* z-index: 2; */
 }
 
 .font-White {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-size: 389%;
-  opacity: 90%;
   color: #fff;
+  font-family: 'raleway-bold';
 }
 
 .subtitleBox {
   font-family: 'raleway-medium';
   font-size: 100%;
-/*   opacity: 80%; */
-  margin-top: 5%;
+  margin-top: 1%;
   color: #fff;
+  opacity: 66%;
 }
 
 .BtnDownload {
@@ -153,14 +158,13 @@ header {
 }
 
 .imgBox {
-  width: 30%;
-  margin-right: 5%;
-  margin-bottom: 4%;
+  width: 29%;
 }
 
 .section1 .imgBox img {
-  height: 10%;
-  width: 150%;
+  height: 0%;
+  width: 180%;
+  margin-right: 10%;
 }
 
 
@@ -169,16 +173,13 @@ header {
   .section1 {
     height: 100vh;
     width: 100%;
-    background-size: cover;
     display: flex;
-    flex-direction: column;
   }
   
   .fundo {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    background-size: cover;
     display: flex;
     flex-direction: column;
   }
@@ -196,38 +197,40 @@ header {
     filter: brightness(25%) opacity(90%);
   }
   
+  
   header {
     width: 100%;
     height: 15%;
-    border-radius: 0px 0px 0px 110px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
   }
   
   .logo {
-    height: 133px;
-    align-items: self-start;
-    margin-left: 5%;
-    margin-right: 17%;
+    height: 90%;
+    margin-left: 5%; 
+    margin-right: 6%; 
+    margin-top: 0.5%;
+  } 
+  
+  .navegation {
+    display: flex;
+    width: 100%; 
+    flex-direction: column;
+    justify-content: center;
+    
   }
   
-  ul {
-    display: flex;
-    font-family: "raleway";
+  .container_nav{
+    height: 20%;
   }
   
   .ancoras {
-    font-size: large;
-    margin: 0 20px;
+    font-size: 24;
+    margin: 4%;
     color: #fff;
     font-family: 'raleway-semibold';
-    padding: 15px;
+    padding: 5px;
     border-radius: 8px;
-    list-style-type: none;
     transition: 0.2s;
-    text-align: center;
-    text-decoration: none;
   }
   
   .ancoras:hover {
@@ -236,52 +239,53 @@ header {
     color: #FF7152;
   }
   
-  .Baixar {
+  .baixeoapp {
     color: #fff;
-    padding: 18px 35px;
+    padding: 1.3%;
     background-color: #FF7152;
     border-radius: 40px;
-    font-size: large;
+    font-size: 24;  
     text-align: center;
-    list-style-type: none;
-    box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 3px 6px 6px -2px rgba(0, 0, 0, 0.1);
     transition: 0.2;
-    margin-left: 10cm;
+    margin-left: 8%;
     text-decoration: none;
     font-family: "raleway-extrabold";
   }
   
-  .Baixar:hover {
+  .section1 .baixeoapp:hover {
     transition: 0.2;
     background-color: #fff;
-    color: #ff715282;
+    color: #FF7152;
   }
   
-  .container{
+  .container_main{
     width: 100%;
-    height: 800px;
+    height: 100%;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
   }
   
-  .titleBox1 {
-    flex: 50%;
-    margin-left: 5%;
+  .section1 .container {
     display: flex;
-    text-align: left;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 8%;
   }
   
-  .titleBox2{
-    width: 66%;
+  .section1 .titleBox1{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 51%;
+  }
+  
+  .titleBox2{  
+    width: 65.5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: -2%;
   }
   
   .wordmao{
@@ -292,60 +296,48 @@ header {
   
   .font-WhiteOpace {
     font-family: 'raleway-bold';
-    text-align: left;
-    font-style: Medium;
-    font-size: 50px;
+    font-size: 250%;
     opacity: 70%;
-    line-height: 45px;
-    line-height: 100%;
     color: #fff;
-    font-weight: 600;
   }
   
   .fontOrange {
-    font-size: 75px;
-    line-height: 80%;
-    color: #000000;
+    font-size: 380%;
+    color: #FF7152;
     font-family: "raleway-black";
-    font-style: inherit;
-    z-index: 2;
   }
   
   .font-White {
-    font-size: 75px;
-    opacity: 90%;
-    line-height: 45px;
-    line-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 389%;
     color: #fff;
+    font-family: 'raleway-bold';
   }
   
   .subtitleBox {
     font-family: 'raleway-medium';
-    font-style: Medium;
-    font-size: 150%;
-    opacity: 80%;
-    margin-top: 5%;
-    color: #dddddd;
+    font-size: 100%;
+    margin-top: 1%;
+    color: #fff;
+    opacity: 66%;
   }
   
   .BtnDownload {
-    width: 280px;
-    height: 90px;
-    margin-top: 15%;
+    width: 30%;
+    margin-top: 5%;
   }
   
   .imgBox {
-    display: flex;
-    margin-left: 20%;
-    margin-right: 5%;
-    justify-content: flex-end;
+    width: 29%;
   }
   
-  .imgBox img {
-    height: 800px;
-    width: 800px;
+  .section1 .imgBox img {
+    height: 0%;
+    width: 180%;
+    margin-right: 10%;
   }
-  
 }
 
 /* Estilos para tablet */

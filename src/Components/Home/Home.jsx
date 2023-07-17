@@ -24,10 +24,12 @@ export default function Home() {
             </div>
           </nav>
         </header>
-        <div className="container">
-          <div className="titleBox1">
-            <h1 className="font-WhiteOpace">A praticidade</h1>
-            <h1 className="fontOrange">na palma </h1>
+        <div className="container_main">
+          <div className="container">
+            <div className="titleBox1">
+              <h1 className="font-WhiteOpace">A praticidade</h1>
+              <h1 className="fontOrange">na palma </h1>
+            </div>
             <div className="titleBox2">
               <h1 className="font-White">da sua</h1>
               <div className="wordmao">
