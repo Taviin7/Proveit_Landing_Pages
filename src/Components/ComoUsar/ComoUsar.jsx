@@ -14,9 +14,11 @@ import animeAddReceita from "./Imgs/Add_Receita.gif";
 export default function ComoUsar() {
   return (
     <section className="section4" id="como-usar">
-      <div className="title">
-        <h1 className="font-Black">Como</h1>
-        <h1 className="font-Orange">usar?</h1>
+      <div className="titlemain">
+        <div className="titles">
+          <h1 className="font-Black">Como</h1>
+          <h1 className="font-Orange">usar?</h1>
+        </div>
       </div>
       {/* Imagem da Tela Inicial*/}
       <div className="cardUse">
@@ -26,21 +28,24 @@ export default function ComoUsar() {
         </div>
         <div className="texto">
           <h2>Tela Inicial</h2>
-          <br />
-          <p>
-            Nesta tela é onde você encontrará uma mar de receitas, nas diversas
-            abas, por exemplo:
+          <div className="containermain_1">
+            <div className="retangle_1"></div>
             <br />
-            <br />
-          </p>
+            <p>
+              Nesta tela é onde você encontrará um mar de receitas, nas diversas
+              abas, por exemplo:
+            </p>
+          </div >
           <text className="examples">
-            O que há de novo?
+            Mais acessadas;
             <br />
-            Popular hoje
+            Explore!;
             <br />
-            Nossa seleção
+            Seleção PROVEIT;
             <br />
-            dentre outros.
+            Receitas reaproveitáveis;
+            <br />
+            Baixas calorias, <u>dentre outros.</u>
           </text>
         </div>
       </div>
@@ -53,14 +58,16 @@ export default function ComoUsar() {
         </div>
         <div className="texto">
           <h2>Tela Receita</h2>
-          <br />
-          <p>
-            Aqui é onde você verá o passo a passo da sua receita detalhadamente,
-            poderá favoritar pra fazer depois ou mais vezes, vai poder dar seu
-            feedback sobre a receita e acrescentar algo que poderia ser
-            interessante, além de compartilhar para qualquer pessoa e ver os
-            outros comentários
-          </p>
+          <div className="containermain_2">
+            <div className="retangle_2"></div>
+            <p>
+              Aqui é onde você verá o passo a passo da sua receita detalhadamente,
+              poderá favoritar pra fazer depois ou mais vezes, vai poder dar seu
+              feedback sobre a receita e acrescentar algo que poderia ser
+              interessante, além de compartilhar para qualquer pessoa e ver os
+              outros comentários
+            </p>
+          </div>
         </div>
       </div>
 
@@ -72,11 +79,13 @@ export default function ComoUsar() {
         </div>
         <div className="texto">
           <h2>Tela de Perfil</h2>
-          <br />
-          <p>
-            No perfil é onde você verá seu histórico de receitas, seu dados e
-            poderá adicionar as suas receitas!
-          </p>
+          <div className="containermain_3">
+            <div className="retangle_3"></div>
+            <p>
+              No perfil é onde você verá seu histórico de receitas, seu dados e
+              poderá adicionar as suas receitas!
+            </p>
+          </div>
         </div>
       </div>
 
@@ -88,25 +97,24 @@ export default function ComoUsar() {
         </div>
         <div className="texto">
           <h2>Tela de pesquisa</h2>
-          <br />
-          <div className="containermain">
-          <div className="retangle2"></div>
-          <p>
-            Nesta tela é onde você vai encontrar todas as receitas que temos no
-            nosso aplicativo, podendo até usar filtros para facilitar sua
-            pesquisa!
-          </p>
+          <div className="containermain_4">
+            <div className="retangle_4"></div>
+            <p>
+              Nesta tela é onde você vai encontrar todas as receitas que temos no
+              nosso aplicativo, podendo até usar filtros para facilitar sua
+              pesquisa!
+            </p>
           </div>
-          <div className="containermain">
-            <div className="retangle"></div>
+          <div className="containermain_4">
+            <div className="retangle_4-1"></div>
             <div className="texts">
-                <h4>Pesquisa por ingredientes</h4>
-                <p>
-                  Imagine que você tem um certo numero de ingredientes dentro da sua
-                  casa, e você não tem ideia do que fazer com eles, na barra de “<u>Pesquisa
-                  por ingredientes</u>” você irá colocar os igredientes, e nós iremos te mandar
-                  receitas com esses igredientes!
-                </p>
+              <h5>Pesquisa por ingredientes</h5>
+              <p>
+                Imagine que você tem um certo numero de ingredientes dentro da sua
+                casa, e você não tem ideia do que fazer com eles, na barra de “<u>Pesquisa
+                  por ingredientes</u>” você irá colocar os ingredientes, e nós iremos te mandar
+                receitas com esses ingredientes!
+              </p>
             </div>
           </div>
         </div>
@@ -120,12 +128,14 @@ export default function ComoUsar() {
         </div>
         <div className="texto">
           <h2>Tela de cadastro de receitas</h2>
-          <br />
-          <p>
-            Como diz o próprio nome, caso você seja um cozinheiro nato, você
-            pode mostrar ao mundo suas receitas, colocando fotos, videos, passo
-            a passo etc.
-          </p>
+          <div className="containermain_5">
+            <div className="retangle_5"></div>
+            <p>
+              Como diz o próprio nome, caso você seja um cozinheiro nato, você
+              pode mostrar ao mundo suas receitas, colocando fotos, videos, passo
+              a passo etc.
+            </p>
+          </div>
         </div>
       </div>
     </section>
