@@ -83,18 +83,18 @@ width: 35%;
 } */
 
 .font-OrangeTeam2 {
-  font-size: 600%;
-  line-height: 65%;
+  font-size: 800%;
+  line-height: 64%;
   color: #FF7152;
-  margin-right: 9%;
+  margin-left: 15%;
   position: relative;
   z-index: 1;
 }
 
 .font-WhiteOur2 {
-  padding-left: 15%;
+  padding-left: 20%;
   text-align: left;
-  font-size: 500%;
+  font-size: 600%;
   opacity: 90%;
   margin-top: 15%;
   line-height: 60%;
