@@ -83,12 +83,6 @@
   font-size: 80%;
 }
 
-.section4 .fontOrange {
-  font-size: 25px;
-  color: #FF7152;
-  font-family: "raleway-bold";
-}
-
 .section4 .texto {
   display: flex;
   flex-direction: column;  

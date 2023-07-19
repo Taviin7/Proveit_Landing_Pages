@@ -21,15 +21,17 @@ export default function Card({
         <div className="infoIntegrantes">
           <h1>{integrante}</h1>
           <h4>{função}</h4>
-          <a href={linkgithub} target="__blank">
-            <img src={github} />
-          </a>
-          <a href={linklinkedin} target="__blank">
-            <img src={linkedin} />
-          </a>
-          <a href={linkinstagram} target="__blank">
-            <img src={instagram} />
-          </a>
+          <div className="redes">
+            <a href={linkgithub} target="__blank">
+              <img src={github} />
+            </a>
+            <a href={linklinkedin} target="__blank">
+              <img src={linkedin} />
+            </a>
+            <a href={linkinstagram} target="__blank">
+              <img src={instagram} />
+            </a>
+          </div>
         </div>
       </div>
     </div>

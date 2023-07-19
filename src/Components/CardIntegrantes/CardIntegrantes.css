@@ -1,7 +1,7 @@
 .section5 {
   background-image: url("./Imgs/fundo-boltneva.png");
   width: 100%;
-  height: 1500px;
+  height: 1300px;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
@@ -10,17 +10,15 @@
 .textofinal p{
   color: #fff;
   font-family: "raleway-semibold";
-  font-size: 30px;
+  font-size: 135%;
   text-align: justify;
-  /* align-items: left; */
   margin-bottom: 10%;
   padding-left: 7%;
   padding-top: 5%;
 }
 
-
 .textfinal{
-width: 40%;
+width: 35%;
 }
 
 .textofinal {
@@ -32,26 +30,28 @@ width: 40%;
 }
 
 .textofinal img{
-  height: 114px;
-  margin-top: 5%;
-  margin-right: 10%;
+  height: 80px;
+  margin-top: 9%;
+  margin-right: 5%;
 }
 
 .textofinal #img1{
   border-right:  7px solid #ffffff;
-  padding-right: 8%;
+  padding-right: 7%;
 }
 
 .textofinal #img2{
-  margin-left: -8%;
-  height: 130px;
+  margin-left: -5%;
+  margin-top: 7.8%;
+  height: 110px;
 }
 
 .boxIntegrantes {
-  margin-left: 10%;
+  /* margin-left: 5%; */
   display: grid;
   grid-template-columns: auto auto auto;
   color: #fff;
+  margin-top: -5%;
 }
 
 .container-ourteam {
@@ -61,7 +61,6 @@ width: 40%;
 }
 
 .title-ourteam {
-
   margin-top: 15%;
   text-align: center;
   width: 900px;
@@ -74,30 +73,31 @@ width: 40%;
   color: #FF7152;
 }
 
-.font-WhiteOur {
+/* .font-WhiteOur {
   padding-left: 15%;
   text-align: left;
-  font-size: 110px;
+  font-size: 100%;
   opacity: 90%;
   line-height: 150px;
   color: #fff;
-}
+} */
 
 .font-OrangeTeam2 {
-  font-size: 130px;
-  line-height: 30%;
+  font-size: 600%;
+  line-height: 65%;
   color: #FF7152;
-  margin-left: 70px;
+  margin-right: 9%;
   position: relative;
-  z-index: 3;
+  z-index: 1;
 }
 
 .font-WhiteOur2 {
   padding-left: 15%;
   text-align: left;
-  font-size: 80px;
+  font-size: 500%;
   opacity: 90%;
-  line-height: 150px;
+  margin-top: 15%;
+  line-height: 60%;
   color: #fff;
 }
 
@@ -110,7 +110,7 @@ width: 40%;
 
 .section5 .font-WhiteWe{
   margin-top: 5%;
-  font-size: 130px;
+  font-size: 450%;
   opacity: 90%;
   color: #fff;
   line-height: 60%;
@@ -119,11 +119,11 @@ width: 40%;
 }
 
 .section5 .font-OrangeAre{
-  font-size: 130px;
+  font-size: 450%;
   line-height: 30%;
   color: #FF7152;
-  padding-left: 10%;
-  margin-top: -10px;
+  padding-left: 11%;
+  margin-top: -0.5%;
   font-family: "raleway-bold";
   z-index: 3;
 }
