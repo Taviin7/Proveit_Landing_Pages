@@ -13,7 +13,9 @@ export default function Home() {
     <section className="section1" id="Home">
       <div className="fundo">
         <header>
-          <img className="logo" src={Logo} />
+          <div className="container_logo">
+            <img className="logo" src={Logo} />
+          </div>
           <nav className="navegation">
             <div className="container_nav">
               <Link to="nosso-objetivo" className="ancoras" smooth={true} duration={600}>Nosso Objetivo</Link>
