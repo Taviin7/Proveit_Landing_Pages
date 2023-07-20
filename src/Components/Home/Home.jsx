@@ -14,7 +14,7 @@ export default function Home() {
       <div className="fundo">
         <header>
           <div className="container_logo">
-            <img className="logo" src={Logo} />
+            <img src={Logo} className="logo"/>
           </div>
           <nav className="navegation">
             <div className="container_nav">
