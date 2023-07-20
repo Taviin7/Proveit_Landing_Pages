@@ -1,0 +1,73 @@
+/* Estilos para tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .section2 {
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-color: #ffffff;
+        align-items: center;
+        flex-direction: row;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .section2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section2 .titleBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 23%;
+        width: 58%;
+        margin-left: 15%;
+        margin-bottom: 7%;
+    }
+
+    .section2 .titleBox2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section2 .fontBlack {
+        font-size: 392%;
+        line-height: 50%;
+        color: #505050;
+        font-family: "raleway-bold";
+        z-index: 3;
+    }
+
+    .section2 .font-Orange2 {
+        display: flex;
+        font-size: 530%;
+        line-height: 70%;
+        color: #FF7152;
+        font-family: "raleway-black";
+        margin-left: 10%;
+    }
+
+    .font-Text {
+        font-family: 'raleway-medium';
+        font-size: 130%;
+        color: #707070;
+        width: 65%;
+        height: 10%;
+        text-align: justify;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .imgOrange {
+        display: flex;
+        justify-content: flex-end;
+        background: linear-gradient(#FF7152, #ffc852f5);
+        border-radius: 100px 0px 0px 280px;
+        width: 35%;
+        box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.19);
+        z-index: 1;
+    }
+
+}

@@ -1,5 +1,7 @@
 import React from "react";
 import "./ComoUsar.css";
+import "./ComoUsar_cel.css";
+import "./ComoUsar_tablet.css";
 import Home from "./Imgs/home.png";
 import animeHome from "./Imgs/Home.gif";
 import Receita from "./Imgs/Receita.png";

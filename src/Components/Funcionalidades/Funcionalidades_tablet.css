@@ -1,0 +1,94 @@
+/* Estilos para tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .section3 {
+        display: flex;
+        background-color: #2e2929cb;
+        align-items: center;
+        justify-content: center;
+        height: 110vh;
+        width: 100%;
+        background-image: url("imgs/fundo-boltneva.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section3 .title {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        margin-bottom: 8%;
+        margin-left: 18%;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+    }
+
+    .section3 .font-White {
+        font-size: 330%;
+        opacity: 90%;
+        margin-top: -18%;
+        font-family: "raleway-bold";
+        color: #fff;
+    }
+
+    .section3 .font-Orange2 {
+        font-family: 'raleway-black';
+        font-size: 380%;
+        line-height: 8%;
+        color: #FF7152;
+        z-index: 2;
+        margin-left: 3%;
+    }
+
+    .funcionalidades img {
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: rgba(255, 255, 255, 0.15);
+        padding: 1%;
+        width: 85%;
+        height: 70%;
+        border-top-left-radius: 90px;
+        border-bottom-left-radius: 90px;
+        box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.19);
+        margin-left: 5%;
+    }
+
+    .card>div {
+        text-align: justify;
+        padding: 10%;
+    }
+
+    .card text {
+        color: #fff;
+        font-size: 90%;
+        font-family: "raleway-medium";
+    }
+
+    .cardtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section3 .card h1 {
+        display: flex;
+        font-size: 85%;
+        color: #ffffff;
+        padding-bottom: 10%;
+        text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: "raleway-extrabold";
+    }
+
+    .card img {
+        width: 20%;
+        margin-right: 2%;
+    }
+
+    /* .section3 img {
+        flex-direction: column;
+      } */
+}

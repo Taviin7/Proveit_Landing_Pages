@@ -1,5 +1,7 @@
 import React from "react";
 import "./Funcionalidades.css";
+import "./Funcionalidades_cel.css";
+import "./Funcionalidades_tablet.css";
 import Celulares from "./imgs/celulares.png";
 import add from "./icons/icon-add.png";
 import fav from "./icons/icon-fav.png";

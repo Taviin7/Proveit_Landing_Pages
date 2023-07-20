@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from 'react-scroll';
 import "./Home.css";
+import "./Home_cel.css";
+import "./Home_tablet.css";
 import Logo from "./Imgs/proveitLogo.png";
 import Men from "./Imgs/negocomendo.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
@@ -18,7 +20,7 @@ export default function Home() {
               <Link to="funcionalidades" className="ancoras" smooth={true} duration={600}>Funcionalidades</Link>
               <Link to="como-usar" className="ancoras" smooth={true} duration={600}>Como Usar</Link>
               <Link to="quem-somos" className="ancoras" smooth={true} duration={600}>Quem Somos</Link>
-              <a className="baixeoapp" href="">
+              <a className="baixeoapp" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
                 Baixe o app
               </a>
             </div>
@@ -39,7 +41,9 @@ export default function Home() {
             <span className="subtitleBox">
               Nunca foi tão fácil encontrar uma receita!
             </span>
-            <img className="BtnDownload" src={BtnDownload} />
+            <a href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
+              <img className="BtnDownload" src={BtnDownload} />
+            </a>
           </div>
           <div className="imgBox">
             <img src={Men} />
