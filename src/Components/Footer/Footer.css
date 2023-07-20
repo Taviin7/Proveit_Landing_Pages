@@ -1,51 +1,70 @@
 footer {
   display: flex;
   height: 30%;
-  background: linear-gradient(90.05deg, #525252 0.04%, #a2a2a2 99.96%);
+  width: 100%;
+  /* background: linear-gradient(170deg, #353130 80%, #5a5a5a ); */
+  background-color: #353130;
   flex-direction: column;
+}
+
+.img_logo {
+  display: flex;
+  width: 20%;
 }
 
 footer img {
   display: flex;
-  width: 60%;
-  height: 50%;
-  margin-top: 15%;
-  margin-left: 35%;
+  width: 65%;
+  height: 85%;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.container-footer-MAIN {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 95%;
 }
 
 .container-footer {
   display: flex;
-  flex: 1;
   flex-direction: row;
+  width: 100%;
 }
+
+.boxFooter_main {
+  display: flex;
+  flex-direction: row; 
+  width: 80%;
+}
+
 
 .boxFooter {
   display: grid;
   grid-template-columns:auto auto;
   width: 50%;
   height: 60%;
-  padding-top: 50px;
+  padding-top: 2%;
   margin-left: 10%;
   margin-top: 1.7%;
-  border-top: 7px solid #ffffffc4;
-  border-bottom: 7px solid #ffffffc4;
+  border-top: 5px solid #ffffffc4;
+  border-bottom: 5px solid #ffffffc4;
   justify-content: center;
 }
 
 .boxFooter a {
   font-family: "raleway-bold";
-  font-size: 25px;
-  width: 200px;
+  font-size: 100%;
+  width: 100%;
   height: 30px;
   margin: 0 20px;
   color: #fff;
-  font-weight: 300;
   padding: 10px 50px;
   border-radius: 8px;
   list-style-type: none;
   text-align: center;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
-  text-decoration: none;
 }
 
 .boxFooter a:hover {
@@ -62,17 +81,18 @@ footer img {
 
 .download img {
   display: flex;
-  width: 232px;
-  height: 75px;
-  margin-left: 60%;
+  width: 80%;
+  height: 35%;
+ /*  margin-left: 60%; */
 }
 
 .copyright {
   font-family: "raleway";
-  font-size: 15px;
+  height: 5%;
+  font-size: 80%;
   color: #fff;
   text-align: center;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
