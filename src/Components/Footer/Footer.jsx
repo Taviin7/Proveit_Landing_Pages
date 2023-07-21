@@ -24,7 +24,7 @@ export default function Footer() {
             <div className="download_box">
               <div className="download" >
                 <h1>Baixe</h1>
-                <a href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
+                <a  className="btn_download" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
                   <img src={btnDownload} />
                 </a>
               </div>

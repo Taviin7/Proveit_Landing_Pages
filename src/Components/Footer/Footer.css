@@ -17,7 +17,7 @@ footer {
   width: 62%;
   height: 85%;
   margin-top: 8%;
-  margin-left: 35%;
+  margin-left: 19%;
 }
 
 .container-footer-MAIN {
@@ -35,22 +35,22 @@ footer {
 
 .boxFooter_main {
   display: flex;
-  flex-direction: row; 
-  width: 80%;
+  flex-direction: row;
+  width: 75%;
+  height: 78%;
+  border-top: 5px solid #ffffffc4;
+  border-bottom: 5px solid #ffffffc4;
+  margin-top: 1.7%;
 }
 
 
 .boxFooter {
   display: grid;
-  grid-template-columns:auto auto;
+  grid-template-columns: auto auto;
   width: 50%;
-  height: 70%;
-  padding-top: 2%;
+  height: 80%;
   margin-left: 10%;
-  margin-top: 1.7%;
-  border-top: 5px solid #ffffffc4;
-  border-bottom: 5px solid #ffffffc4;
-  /* justify-content: center; */
+  margin-top: 2.5%;
 }
 
 .boxFooter a {
@@ -79,23 +79,25 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  
   width: 28%;
-  height: 80.9%;  
-  margin-top: 1.7%;
+  height: 80%;
+  margin-top: 1%;
   align-items: center;
   justify-content: center;
-  border-top: 5px solid #ffffffc4;
-  border-bottom: 5px solid #ffffffc4;
+}
+
+.btn_download {
+  display: flex;
+  width: 150px;
+  height: 50%;
 }
 
 .download {
   width: 80%;
   margin-left: 10%;
-  margin-bottom: 3%;
 }
 
-.download h1{
+.download h1 {
   display: flex;
   font-family: 'raleway-extrabold';
   color: white;
@@ -103,15 +105,15 @@ footer {
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
 }
 
-.download h1:hover{
+.download h1:hover {
   transition: 0.2s;
   color: #FF7152;
 }
 
 .download img {
   display: flex;
-  width: 70%;
-  height: 53%;
+  width: 100%;
+  height: 100%;
   margin-top: 3%;
 }
 
@@ -129,4 +131,3 @@ footer {
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
   margin-bottom: 1%;
 }
-

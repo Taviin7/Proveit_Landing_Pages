@@ -14,7 +14,7 @@ export default function Home() {
       <div className="fundo">
         <header>
           <div className="container_logo">
-            <img src={Logo} className="logo"/>
+            <img src={Logo} className="logo" />
           </div>
           <nav className="navegation">
             <div className="container_nav">
@@ -35,15 +35,17 @@ export default function Home() {
               <h1 className="fontOrange">na palma </h1>
             </div>
             <div className="titleBox2">
-              <h1 className="font-White">da sua</h1>
-              <div className="wordmao">
-                <h1 className="fontOrange">mão!</h1>
-              </div>
+              <h1 className="font-White">da sua
+                <span className="texts-container">
+                  <span className="text-orange">mão</span>
+                  <span>!</span>
+                </span>
+              </h1>
             </div>
             <span className="subtitleBox">
               Nunca foi tão fácil encontrar uma receita!
             </span>
-            <a href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
+            <a className="Box_BtnDownload" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
               <img className="BtnDownload" src={BtnDownload} />
             </a>
           </div>

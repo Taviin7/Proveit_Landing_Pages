@@ -1,10 +1,21 @@
 .section5 {
+  display: flex;
+  flex-direction: column;
   background-image: url("./Imgs/fundo-boltneva.png");
   width: 100%;
 /*   max-height: 1300px; */
   /* background-repeat: no-repeat; */
   background-size: cover;
   z-index: 1;
+}
+
+.container1{
+  width: 100%;
+  height: 600px;
+}
+
+.container2{
+  width: 100%;
 }
 
 .textofinal p{
@@ -47,23 +58,28 @@ width: 35%;
 }
 
 .boxIntegrantes {
-  /* margin-left: 5%; */
   display: grid;
   grid-template-columns: auto auto auto;
   color: #fff;
+  width: 650px;
+  height: 60%;
   margin-top: -5%;
 }
 
 .container-ourteam {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
   margin-top: -5%;
 }
 
 .title-ourteam {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin-top: 15%;
-  text-align: center;
-  width: 900px;
+  width: 100%;
   height: 200px;
 }
 
@@ -73,26 +89,18 @@ width: 35%;
   color: #FF7152;
 }
 
-/* .font-WhiteOur {
-  padding-left: 15%;
-  text-align: left;
-  font-size: 100%;
-  opacity: 90%;
-  line-height: 150px;
-  color: #fff;
-} */
 
 .font-OrangeTeam2 {
   font-size: 800%;
   line-height: 64%;
   color: #FF7152;
-  margin-left: 15%;
+  margin-left: 20%;
   position: relative;
   z-index: 1;
 }
 
 .font-WhiteOur2 {
-  padding-left: 20%;
+  padding-left: 12%;
   text-align: left;
   font-size: 600%;
   opacity: 90%;
@@ -105,6 +113,7 @@ width: 35%;
   display: flex;
   flex-direction: column;
   align-items: left;
+  width: 1100px;
   padding-left: 7%;
 }
 
