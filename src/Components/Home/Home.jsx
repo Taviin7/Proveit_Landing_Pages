@@ -4,7 +4,7 @@ import "./Home.css";
 import "./Home_cel.css";
 import "./Home_tablet.css";
 import Logo from "./Imgs/proveitLogo.png";
-import Men from "./Imgs/negocomendo.png";
+import negao from "./Imgs/negocomendo.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
 export default function Home() {
@@ -50,7 +50,7 @@ export default function Home() {
             </a>
           </div>
           <div className="imgBox">
-            <img src={Men} />
+            <img src={negao} />
           </div>
         </div>
       </div>
