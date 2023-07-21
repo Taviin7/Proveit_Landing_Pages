@@ -4,7 +4,7 @@ import "./Home.css";
 import "./Home_cel.css";
 import "./Home_tablet.css";
 import Logo from "./Imgs/proveitLogo.png";
-import negao from "./Imgs/negocomendo.png";
+import negao from "./Imgs/negao.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
 export default function Home() {
