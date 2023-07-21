@@ -37,8 +37,10 @@ export default function CardIntegrantes() {
               não sabem o que cozinhar com o que tem na cozinha!
             </p>
           </div>
-          <img src={devlare} id="img1" />
-          <img src={proveit} id="img2" />
+          <div className="container_logos">
+            <img src={devlare} id="img1" />
+            <img src={proveit} id="img2" />
+          </div>
         </div>
       </div>
       <div className="container2">
@@ -65,7 +67,9 @@ export default function CardIntegrantes() {
               função="Frontend"
               imagem={lucas}
               github={github}
+              instagram={instagram}
               linkgithub={"https://github.com/404lucas"}
+              linkinstagram={"https://www.instagram.com/luucaslul/"}
             />
             <Card
               integrante="Marcos Alves"

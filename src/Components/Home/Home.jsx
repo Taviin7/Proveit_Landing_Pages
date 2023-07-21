@@ -38,7 +38,7 @@ export default function Home() {
               <h1 className="font-White">da sua
                 <span className="texts-container">
                   <span className="text-orange">mão</span>
-                  <span>!</span>
+                  <span className="exclamacao">!</span>
                 </span>
               </h1>
             </div>

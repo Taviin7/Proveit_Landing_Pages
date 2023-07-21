@@ -149,6 +149,10 @@ header {
   position: relative;
 }
 
+.exclamacao{
+  font-family: "raleway-black";
+}
+
 .subtitleBox {
   font-family: 'raleway-medium';
   font-size: 100%;
