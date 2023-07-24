@@ -32,23 +32,25 @@ export default function ComoUsar() {
           <h2>Tela Inicial</h2>
           <div className="containermain_1">
             <div className="retangle_1"></div>
-            <br />
             <p>
               Nesta tela é onde você encontrará um mar de receitas, nas diversas
               abas, por exemplo:
             </p>
           </div >
-          <text className="examples">
-            Mais acessadas;
-            <br />
-            Explore!;
-            <br />
-            Seleção PROVEIT;
-            <br />
-            Receitas reaproveitáveis;
-            <br />
-            Baixas calorias, <u>dentre outros.</u>
-          </text>
+          <div className="containermain_1">
+            <div className="invisible_retangle"></div>
+            <text className="exemplos">
+              Mais acessadas;
+              <br />
+              Explore!;
+              <br />
+              Seleção PROVEIT;
+              <br />
+              Receitas reaproveitáveis;
+              <br />
+              Baixas calorias, <u>dentre outros.</u>
+            </text>
+          </div>
         </div>
       </div>
 

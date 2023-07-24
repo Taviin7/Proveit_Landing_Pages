@@ -39,7 +39,7 @@ export default function Home() {
                 <span className="texts-container">
                   <span className="text-orange">mão</span>
                   <span className="exclamacao">!</span>
-                </span>
+                </span> 
               </h1>
             </div>
             <span className="subtitleBox">
