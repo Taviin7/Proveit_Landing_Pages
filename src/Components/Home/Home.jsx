@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-scroll';
 import "./Home.css";
 import "./Home_cel.css";
@@ -7,7 +8,42 @@ import Logo from "./Imgs/proveitLogo.png";
 import negao from "./Imgs/negao.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
+const ComponenteParaCelular = () => {
+  return (
+    <div className="">
+      <Menu>
+        <a id="#nosso-objetivo" className="menu-item" href="#nosso-objetivo">
+        Nosso Objetivo
+        </a>
+        <a id="#funcionalidades" className="menu-item" href="#funcionalidades">
+        Funcionalidades
+        </a>
+        <a id="#como-usar" className="menu-item" href="#como-usar">
+        Como Usar
+        </a>
+        <a id="#quem-somos" className="menu-item" href="#quem-somos">
+        Quem Somos
+        </a>
+      </Menu>
+    </div>
+  );
+};
+
 export default function Home() {
+
+  const [isCelular, setIsCelular] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const atualizarEstadoTela = () => {
+      setIsCelular(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', atualizarEstadoTela);
+
+    return () => {
+      window.removeEventListener('resize', atualizarEstadoTela);
+    };
+  }, []);
 
   return (
     <section className="section1" id="Home">
@@ -16,17 +52,20 @@ export default function Home() {
           <div className="container_logo">
             <img src={Logo} className="logo" />
           </div>
-          <nav className="navegation">
-            <div className="container_nav">
-              <Link to="nosso-objetivo" className="ancoras" smooth={true} duration={600}>Nosso Objetivo</Link>
-              <Link to="funcionalidades" className="ancoras" smooth={true} duration={600}>Funcionalidades</Link>
-              <Link to="como-usar" className="ancoras" smooth={true} duration={600}>Como Usar</Link>
-              <Link to="quem-somos" className="ancoras" smooth={true} duration={600}>Quem Somos</Link>
-              <a className="baixeoapp" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
-                Baixe o app
-              </a>
-            </div>
-          </nav>
+          {isCelular && <ComponenteParaCelular />}
+          {isCelular ? null :
+            <nav className="navegation">
+              <div className="container_nav">
+                <Link to="nosso-objetivo" className="ancoras" smooth={true} duration={600}>Nosso Objetivo</Link>
+                <Link to="funcionalidades" className="ancoras" smooth={true} duration={600}>Funcionalidades</Link>
+                <Link to="como-usar" className="ancoras" smooth={true} duration={600}>Como Usar</Link>
+                <Link to="quem-somos" className="ancoras" smooth={true} duration={600}>Quem Somos</Link>
+                <a className="baixeoapp" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
+                  Baixe o app
+                </a>
+              </div>
+            </nav>
+          }
         </header>
         <div className="container_main">
           <div className="container">
@@ -39,7 +78,7 @@ export default function Home() {
                 <span className="texts-container">
                   <span className="text-orange">mão</span>
                   <span className="exclamacao">!</span>
-                </span> 
+                </span>
               </h1>
             </div>
             <span className="subtitleBox">
