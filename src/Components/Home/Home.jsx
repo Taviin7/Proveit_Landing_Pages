@@ -4,13 +4,15 @@ import { Link } from 'react-scroll';
 import "./Home.css";
 import "./Home_cel.css";
 import "./Home_tablet.css";
+import hamburguer_menu from "./Imgs/hamburguer-menu.png";
 import Logo from "./Imgs/proveitLogo.png";
 import negao from "./Imgs/negao.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
 const ComponenteParaCelular = () => {
   return (
-    <div className="">
+    <div className="hamburguermenu">
+      <img src={hamburguer_menu}></img>
       <Menu>
         <a id="#nosso-objetivo" className="menu-item" href="#nosso-objetivo">
         Nosso Objetivo
