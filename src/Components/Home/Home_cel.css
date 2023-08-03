@@ -3,6 +3,7 @@
         display: flex;
         width: 100%;
         height: 100vh;
+        
     }
 
     .fundo {
@@ -11,6 +12,11 @@
         background-repeat: no-repeat;
         height: 100vh;
         flex-direction: column;
+    }
+
+    .bm-icon {
+        margin-left: 280%;
+        margin-top: 70%;
     }
 
     .fundo::before {
@@ -67,7 +73,7 @@
 
     .container_main {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         height: 100%;
 

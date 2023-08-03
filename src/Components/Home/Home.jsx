@@ -2,18 +2,19 @@ import React, { useEffect, useState } from "react";
 import { slide as Menu } from 'react-burger-menu';
 import { Link } from 'react-scroll';
 import "./Home.css";
-import "./Home_cel.css";
 import "./Home_tablet.css";
 import hamburguer_menu from "./Imgs/hamburguer-menu.png";
+import cross from "./Imgs/cross.png";
 import Logo from "./Imgs/proveitLogo.png";
 import negao from "./Imgs/negao.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
-const ComponenteParaCelular = () => {
+/* const ComponenteParaCelular = () => {
   return (
-    <div className="hamburguermenu">
-      <img src={hamburguer_menu}></img>
-      <Menu>
+    <div className="div-hamburguermenu">
+      <Menu className="hamburguermenu"
+      customBurgerIcon={ <img src={hamburguer_menu} /> }
+      customCrossIcon= {<img src={cross}/>}>
         <a id="#nosso-objetivo" className="menu-item" href="#nosso-objetivo">
         Nosso Objetivo
         </a>
@@ -30,7 +31,7 @@ const ComponenteParaCelular = () => {
     </div>
   );
 };
-
+ */
 export default function Home() {
 
   const [isCelular, setIsCelular] = useState(window.innerWidth <= 768);
@@ -54,8 +55,8 @@ export default function Home() {
           <div className="container_logo">
             <img src={Logo} className="logo" />
           </div>
-          {isCelular && <ComponenteParaCelular />}
-          {isCelular ? null :
+       {/*    {isCelular && <ComponenteParaCelular />} */}
+     
             <nav className="navegation">
               <div className="container_nav">
                 <Link to="nosso-objetivo" className="ancoras" smooth={true} duration={600}>Nosso Objetivo</Link>
@@ -67,7 +68,7 @@ export default function Home() {
                 </a>
               </div>
             </nav>
-          }
+          
         </header>
         <div className="container_main">
           <div className="container">
@@ -90,9 +91,9 @@ export default function Home() {
               <img className="BtnDownload" src={BtnDownload} />
             </a>
           </div>
-          <div className="imgBox">
+        {  <div className="imgBox">
             <img src={negao} />
-          </div>
+          </div>}
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Funcionalidades.css";
 import "./Funcionalidades_cel.css";
 import "./Funcionalidades_tablet.css";
@@ -9,6 +9,21 @@ import search from "./icons/icon-search.png";
 import user from "./icons/icon-user.png";
 
 export default function Funcionalidades() {
+
+  const [isCelular, setIsCelular] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const atualizarEstadoTela = () => {
+      setIsCelular(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', atualizarEstadoTela);
+
+    return () => {
+      window.removeEventListener('resize', atualizarEstadoTela);
+    };
+  }, []);
+
   return (
     <section className="section3" id="funcionalidades">
       <div className="funcionalidades">
@@ -18,7 +33,7 @@ export default function Funcionalidades() {
         </div>
         <img src={Celulares} />
       </div>
-
+    {isCelular ? null :
       <div className="card">
         <div class="item1">
           <h1>
@@ -49,7 +64,7 @@ export default function Funcionalidades() {
           <h1>
             <img src={user} />
             <div className="cardtext">
-            Perfil
+              Perfil
             </div>
           </h1>
           <text>
@@ -61,7 +76,7 @@ export default function Funcionalidades() {
           <h1>
             <img src={search} />
             <div className="cardtext">
-            Buscar
+              Buscar
             </div>
           </h1>
           <text>
@@ -70,7 +85,7 @@ export default function Funcionalidades() {
             tem na sua casa!
           </text>
         </div>
-      </div>
+      </div>}
     </section>
   );
 }

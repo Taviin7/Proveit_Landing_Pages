@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./CardIntegrantes.css";
 import "./CardIntegrantes_cel.css";
 import "./CardIntegrantes_tablet.css";
@@ -16,6 +16,21 @@ import devlare from "./Imgs/devlare.png";
 import proveit from "./Imgs/proveitWhite.png";
 
 export default function CardIntegrantes() {
+
+  const [isCelular, setIsCelular] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const atualizarEstadoTela = () => {
+      setIsCelular(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', atualizarEstadoTela);
+
+    return () => {
+      window.removeEventListener('resize', atualizarEstadoTela);
+    };
+  }, []);
+
   return (
     <section className="section5" id="quem-somos">
       <div className="container1">
@@ -39,7 +54,8 @@ export default function CardIntegrantes() {
           </div>
           <div className="container_logos">
             <img src={devlare} id="img1" />
-            <img src={proveit} id="img2" />
+            {isCelular ? null :
+            <img src={proveit} id="img2" />}
           </div>
         </div>
       </div>
@@ -49,7 +65,7 @@ export default function CardIntegrantes() {
             <h1 className="font-WhiteOur2">Our</h1>
             <h1 className="font-OrangeTeam2">TEAM</h1>
           </div>
-
+{isCelular ? null :
           <div className="boxIntegrantes">
             <Card
               integrante="Romario Silva"
@@ -105,7 +121,7 @@ export default function CardIntegrantes() {
               linkinstagram={"https://www.instagram.com/taviin9_/"}
               linkgithub={"https://github.com/Taviin7"}
             />
-          </div>
+          </div>}
         </div>
       </div>
     </section>
