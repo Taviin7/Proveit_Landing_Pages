@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { slide as Menu } from 'react-burger-menu';
-import { Link } from 'react-scroll';
+import { push as Menu } from 'react-burger-menu';
 import "./Home_cel.css";
 import hamburguer_menu from "./Imgs/hamburguer-menu.png";
 import cross from "./Imgs/cross.png";
@@ -16,23 +15,22 @@ export default function Home() {
                     <div className="container_logo">
                         <img src={Logo} className="logo" />
                     </div>
-                    <Menu className="hamburguermenu"
-                        width={'50%'}
-                        customBurgerIcon={<img src={hamburguer_menu} />}
-                        customCrossIcon={<img src={cross} />}>
-                        <a id="#nosso-objetivo" className="menu-item" href="#nosso-objetivo">
-                            Nosso Objetivo
-                        </a>
-                        <a id="#funcionalidades" className="menu-item" href="#funcionalidades">
-                            Funcionalidades
-                        </a>
-                        <a id="#como-usar" className="menu-item" href="#como-usar">
-                            Como Usar
-                        </a>
-                        <a id="#quem-somos" className="menu-item" href="#quem-somos">
-                            Quem Somos
-                        </a>
-                    </Menu>
+                    <div className="hamburguermenu">
+                        <Menu right>
+                            <a id="#nosso-objetivo" className="menu-item" href="#nosso-objetivo">
+                                Nosso Objetivo
+                            </a>
+                            <a id="#funcionalidades" className="menu-item" href="#funcionalidades">
+                                Funcionalidades
+                            </a>
+                            <a id="#como-usar" className="menu-item" href="#como-usar">
+                                Como Usar
+                            </a>
+                            <a id="#quem-somos" className="menu-item" href="#quem-somos">
+                                Quem Somos
+                            </a>
+                        </Menu>
+                    </div>
                 </header>
                 <div className="container_main">
                     <div className="container">
