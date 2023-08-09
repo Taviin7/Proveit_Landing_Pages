@@ -6,7 +6,7 @@
 
     }
 
-    .fundo {
+    .section1_mobile .fundo {
         display: flex;
         width: 100%;
         background-repeat: no-repeat;
@@ -14,14 +14,14 @@
         flex-direction: column;
     }
 
-    header {
+    .section1_mobile header {
         display: flex;
         justify-content: space-between;
         width: 100%;
         height: 12%;
     }
 
-    .bm-burger-button {
+    .section1_mobile .bm-burger-button {
         position: fixed;
         width: 36px;
         height: 30px;
@@ -29,61 +29,61 @@
     }
 
     /* Color/shape of burger icon bars */
-    .bm-burger-bars {
+    .section1_mobile .bm-burger-bars {
         background: rgba(255, 255, 255, 0.6);
         opacity: 1;
     }
 
-    .bm-burger-bars-hover {
+    .section1_mobile .bm-burger-bars-hover {
         background: #FF7152;
     }
 
-    .bm-cross-button {
+    .section1_mobile .bm-cross-button {
         height: 24px;
         width: 24px;
     }
 
     /* Color/shape of close button cross */
-    .bm-cross {
+    .section1_mobile .bm-cross {
         background: #fff;
     }
 
-    .bm-menu-wrap {
+    .section1_mobile .bm-menu-wrap {
         position: fixed;
         height: 100%;
     }
 
     /* General sidebar styles */
-    .bm-menu {
+    .section1_mobile .bm-menu {
         background: #373a47;
         padding: 2.5em 1.5em 0;
         font-size: 1.15em;
     }
 
     /* Morph shape necessary with bubble or elastic */
-    .bm-morph-shape {
+    .section1_mobile .bm-morph-shape {
         fill: #373a47;
     }
 
     /* Wrapper for item list */
-    .bm-item-list {
+    .section1_mobile .bm-item-list {
         color: #b8b7ad;
         padding: 0.8em;
     }
 
     /* Individual item */
-    .bm-item {
+    .section1_mobile .bm-item {
         display: inline-block;
     }
 
     /* Styling of overlay */
-    .bm-overlay {
+    .section1_mobile .bm-overlay {
         background: rgba(0, 0, 0, 0.3);
     }
 
 
 
-    .fundo::before {
+    .section1_mobile .fundo::before {
         content: "";
         background-image: url("./Imgs/mesafundo.jpg");
         background-size: cover;
@@ -97,122 +97,123 @@
     }
 
 
-    .hamburguermenu {
+    .section1_mobile .hamburguermenu {
         display: flex;
         height: 100%;
         width: 35%;
         justify-content: center;
     }
 
-    .container_logo {
+    .section1_mobile .container_logo {
         margin-left: 7%;
         margin-right: 2%;
         margin-top: 0.5%;
     }
 
-    .logo {
+    .section1_mobile .logo {
         height: 100%;
     }
 
-    .section1 .baixeoapp:hover {
+    .section1_mobile .section1 .baixeoapp:hover {
         transition: 0.2;
         background-color: #fff;
         color: #FF7152;
     }
 
-    .container_main {
+    .section1_mobile .container_main {
         display: flex;
         flex-direction: column;
         align-items: center;
+       
         width: 100%;
-        height: 100%;
+        height: 88%;
 
     }
 
-    .section1 .container {
+    .section1_mobile .container {
         display: flex;
         flex-direction: column;
-        width: 90%;
-        height: 47%;
+        width: 85%;
+        height: 35%;
     }
 
-    .section1 .titleBox1 {
+    .section1_mobile .titleBox1 {
         display: flex;
         flex-direction: column;
-        width: 55%;
+        width: 100%;
     }
 
-    .titleBox2 {
-        width: 320px;
+    .section1_mobile .titleBox2 {
         display: flex;
-        margin-top: -2%;
+        width: 100%;
+        /* margin-top: -2%; */
     }
 
-    .font-WhiteOpace {
+    .section1_mobile .font-WhiteOpace {
         font-family: 'raleway-bold';
-        line-height: 50%;
-        font-size: 250%;
-        opacity: 70%;
+        /* line-height: 50%; */
+        font-size: 35px;
+        /* opacity: 70%; */
         color: #fff;
     }
 
-    .fontOrange {
-        font-size: 380%;
+    .section1_mobile .fontOrange {
+        font-size: 55px;
         color: #FF7152;
         font-family: "raleway-black";
     }
 
-    .font-White {
+    .section1_mobile .font-White {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
-        font-size: 389%;
+        font-size: 55px;
         color: #fff;
         font-family: 'raleway-bold';
     }
 
-    .text-orange {
+    .section1_mobile .text-orange {
         font-family: 'raleway-black';
         color: #FF7152;
     }
 
-    .exclamacao {
+    .section1_mobile .exclamacao {
         font-family: "raleway-black";
     }
 
-    .subtitleBox {
+    .section1_mobile .subtitleBox {
         font-family: 'raleway-medium';
-        font-size: 100%;
-        margin-top: 1%;
+        font-size: 17px;
+        /* margin-top: 1%; */
         color: #fff;
         opacity: 66%;
     }
 
-    .Box_BtnDownload {
-        width: 30%;
-        margin-top: 4%;
+    .section1_mobile .Box_BtnDownload {
+        width: 50%;
+        /* margin-top: 4%; */
     }
 
-    .BtnDownload {
+    .section1_mobile .BtnDownload {
         width: 100%;
     }
 
-    .BtnDownload:hover {
+    .section1_mobile .BtnDownload:hover {
         scale: 1.1;
         transition: 0.2s;
     }
 
-    .imgBox {
+    .section1_mobile .imgBox {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
-        height: 100%;
+        height: 65%;
     }
 
-    .section1 .imgBox img {
-        width: 75%;
-        height: 93%;
+    .section1_mobile .imgBox img {
+        width: 100%;
+        height: 90%;
     }
 }

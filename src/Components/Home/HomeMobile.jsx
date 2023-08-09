@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { push as Menu } from 'react-burger-menu';
 import "./Home_cel.css";
-import hamburguer_menu from "./Imgs/hamburguer-menu.png";
-import cross from "./Imgs/cross.png";
 import Logo from "./Imgs/proveitLogo.png";
 import negao from "./Imgs/negao.png";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
 export default function Home() {
     return (
-        <section className="section1" id="Home">
+        <section className="section1_mobile" id="Home">
             <div className="fundo">
                 <header>
                     <div className="container_logo">
