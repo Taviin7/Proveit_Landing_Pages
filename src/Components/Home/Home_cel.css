@@ -12,6 +12,7 @@
         background-repeat: no-repeat;
         height: 100vh;
         flex-direction: column;
+        
     }
 
     .section1_mobile header {
@@ -124,7 +125,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-       
+
         width: 100%;
         height: 88%;
 
@@ -133,6 +134,8 @@
     .section1_mobile .container {
         display: flex;
         flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 15%;
         width: 85%;
         height: 35%;
     }
@@ -209,11 +212,12 @@
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
-        height: 65%;
+        height: 60%;
     }
 
     .section1_mobile .imgBox img {
+        margin-top: 5%;
         width: 100%;
-        height: 90%;
+        height: 95%;
     }
 }

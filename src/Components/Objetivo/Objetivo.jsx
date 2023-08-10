@@ -1,6 +1,5 @@
 import React from "react";
 import "./Objetivo.css";
-import "./Objetivo_cel.css";
 import Salada from "./imgs/saladafoda.png";
 import Pontos from "./imgs/pontos.png";
 

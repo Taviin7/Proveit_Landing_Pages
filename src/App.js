@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Home from './Components/Home/Home';
 import HomeMobile from './Components/Home/HomeMobile'
+import Objetivo from './Components/Objetivo/Objetivo';
+import ObjetivoMobile from './Components/Objetivo/ObjetivoMobile';
 import CardIntegrantes from './Components/CardIntegrantes/CardIntegrantes';
 import ComoUsar from './Components/ComoUsar/ComoUsar';
 import Footer from './Components/Footer/Footer';
 import Funcionalidades from './Components/Funcionalidades/Funcionalidades';
-import Objetivo from './Components/Objetivo/Objetivo';
 
 
 function App() {
@@ -30,7 +31,9 @@ function App() {
       {isMobile ? null : <Home />}
       {isMobile && <HomeMobile/>}
       
-      <Objetivo />
+      {isMobile ? null : <Objetivo/>}
+      {isMobile && <ObjetivoMobile/>}
+      
       <Funcionalidades />
       <ComoUsar />
       <CardIntegrantes />
