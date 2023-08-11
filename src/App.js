@@ -4,10 +4,11 @@ import Home from './Components/Home/Home';
 import HomeMobile from './Components/Home/HomeMobile'
 import Objetivo from './Components/Objetivo/Objetivo';
 import ObjetivoMobile from './Components/Objetivo/ObjetivoMobile';
+import Funcionalidades from './Components/Funcionalidades/Funcionalidades';
+import FuncionalidadesMobile from './Components/Funcionalidades/FuncionalidadesMobile';
 import CardIntegrantes from './Components/CardIntegrantes/CardIntegrantes';
 import ComoUsar from './Components/ComoUsar/ComoUsar';
 import Footer from './Components/Footer/Footer';
-import Funcionalidades from './Components/Funcionalidades/Funcionalidades';
 
 
 function App() {
@@ -34,7 +35,9 @@ function App() {
       {isMobile ? null : <Objetivo/>}
       {isMobile && <ObjetivoMobile/>}
       
-      <Funcionalidades />
+
+      {isMobile ? null : <Funcionalidades/>}
+      {isMobile && <FuncionalidadesMobile/>}
       <ComoUsar />
       <CardIntegrantes />
       <Footer />

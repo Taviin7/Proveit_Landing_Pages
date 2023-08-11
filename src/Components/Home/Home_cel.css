@@ -148,7 +148,7 @@
 
     .section1_mobile .titleBox2 {
         display: flex;
-        width: 100%;
+        width: 315px;
         /* margin-top: -2%; */
     }
 
@@ -161,7 +161,7 @@
     }
 
     .section1_mobile .fontOrange {
-        font-size: 55px;
+        font-size: 53px;
         color: #FF7152;
         font-family: "raleway-black";
     }
@@ -171,7 +171,7 @@
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
-        font-size: 55px;
+        font-size: 53px;
         color: #fff;
         font-family: 'raleway-bold';
     }
