@@ -6,8 +6,9 @@ import Objetivo from './Components/Objetivo/Objetivo';
 import ObjetivoMobile from './Components/Objetivo/ObjetivoMobile';
 import Funcionalidades from './Components/Funcionalidades/Funcionalidades';
 import FuncionalidadesMobile from './Components/Funcionalidades/FuncionalidadesMobile';
-import CardIntegrantes from './Components/CardIntegrantes/CardIntegrantes';
 import ComoUsar from './Components/ComoUsar/ComoUsar';
+import ComoUsarMobile from './Components/ComoUsar/ComoUsarMobile';
+import CardIntegrantes from './Components/CardIntegrantes/CardIntegrantes';
 import Footer from './Components/Footer/Footer';
 
 
@@ -34,11 +35,13 @@ function App() {
       
       {isMobile ? null : <Objetivo/>}
       {isMobile && <ObjetivoMobile/>}
-      
 
       {isMobile ? null : <Funcionalidades/>}
       {isMobile && <FuncionalidadesMobile/>}
-      <ComoUsar />
+
+      {isMobile ? null : <ComoUsar/>}
+      {isMobile && <ComoUsarMobile/>}
+
       <CardIntegrantes />
       <Footer />
     </div>

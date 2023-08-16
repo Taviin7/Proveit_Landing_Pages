@@ -55,7 +55,6 @@
         grid-template-columns: auto;
         width: 90%;
         height: 70%;
-        box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.19);
     }
 
     .section3_mobile .card_funcionalities>div {
