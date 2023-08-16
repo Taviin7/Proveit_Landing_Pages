@@ -6,6 +6,7 @@
         /*   max-height: 1300px; */
         /* background-repeat: no-repeat; */
         background-size: cover;
+        overflow-x: hidden;
         z-index: 1;
     }
 

@@ -7,6 +7,7 @@
         /* background: linear-gradient(170deg, #353130 80%, #5a5a5a ); */
         background-color: #353130;
         flex-direction: column;
+        overflow-x: hidden;
     }
 
     .img_logo {

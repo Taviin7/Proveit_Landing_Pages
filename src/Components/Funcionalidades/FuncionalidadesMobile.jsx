@@ -15,11 +15,11 @@ export default function Funcionalidades() {
                     <h1 className="font-White">As</h1>
                     <h1 className="font-Orange2">funcionalidades</h1>
                 </div>
-                <div className="imgcelular">
-                    <img src={Celulares} />
-                </div>
             </div>
-            <div className="card">
+            <div className="imgcelular">
+                    <img src={Celulares} />
+            </div>
+            <div className="card_funcionalities">
                 <div class="item1">
                     <h1>
                         <img src={add} />

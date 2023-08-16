@@ -2,7 +2,7 @@
 @media (max-width: 768px) {
     .section3_mobile {
         display: flex;
-        flex-direction: column  ;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
         background-color: #2e2929cb;
@@ -11,33 +11,28 @@
         background-image: url("imgs/fundo-boltneva.png");
         background-repeat: no-repeat;
         background-size: cover;
+        overflow-x: hidden;
     }
 
-    .container_funcionalidades{
-        display: flex; 
+    .container_funcionalidades {
+        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
         width: 100%;
-        height: 15%;
+        height: 9%;
     }
 
     .section3_mobile .title {
         display: flex;
         flex-direction: column;
-        
-        /* align-content: space-between; */
         width: 90%;
-        height:45%;
-  /*       margin-bottom: 8%;
-        margin-left: 18%; */
+        margin-top: 7%;
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
     }
 
     .section3_mobile .font-White {
-        font-size: 50px;
+        font-size: 48px;
         opacity: 90%;
-      /*   margin-top: -18%; */
         font-family: "raleway-bold";
         color: #fff;
     }
@@ -45,7 +40,7 @@
     .section3_mobile .font-Orange2 {
         font-family: 'raleway-black';
         font-size: 40px;
-        /* line-height: 8%; */
+        line-height: 1%;
         color: #FF7152;
         z-index: 2;
         margin-left: 3%;
@@ -53,30 +48,25 @@
 
     .section3_mobile .container_funcionalidades img {
         width: 50%;
-        /* margin-top: 5%;
-        margin-left: 30%; */
     }
 
-    .section3_mobile .card {
+    .section3_mobile .card_funcionalities {
         display: grid;
-        grid-template-columns: auto ;
-        background-color: rgba(255, 255, 255, 0.15);
-        padding: 1%;
-        width: 85%;
+        grid-template-columns: auto;
+        width: 90%;
         height: 70%;
         box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.19);
-        margin-left: 5%;
     }
 
-    .section3_mobile .card>div {
+    .section3_mobile .card_funcionalities>div {
         text-align: justify;
-        padding: 10%;
+        padding: 5%;
     }
 
-    .section3_mobile .card text {
+    .section3_mobile .card_funcionalities text {
         color: #fff;
-        font-size: 90%;
-        font-family: "raleway-medium";
+        font-size: 20px;
+        font-family: "raleway-regular";
     }
 
     .section3_mobile .cardtext {
@@ -85,26 +75,24 @@
         justify-content: center;
     }
 
-    .section3_mobile .card h1 {
+    .section3_mobile .card_funcionalities h1 {
         display: flex;
-        font-size: 85%;
+        font-size: 22px;
         color: #ffffff;
         padding-bottom: 10%;
         text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: "raleway-extrabold";
     }
 
-    .section3_mobile .card img {
+    .section3_mobile .card_funcionalities img {
         width: 20%;
         margin-right: 2%;
     }
 
-    .imgcelular{
+    .imgcelular {
         display: flex;
         justify-content: center;
         width: 100%;
+        height: 20%;
     }
-    /* .section3 img {
-        flex-direction: column;
-      } */
 }
