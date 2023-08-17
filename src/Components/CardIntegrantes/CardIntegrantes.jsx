@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./CardIntegrantes.css";
-import "./CardIntegrantes_cel.css";
 import "./CardIntegrantes_tablet.css";
 import Card from "./Card/Card";
 import romario from "./Imgs/romario.png";
