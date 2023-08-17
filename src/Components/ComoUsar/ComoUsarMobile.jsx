@@ -24,7 +24,7 @@ export default function ComoUsar() {
                 {/* Imagem da Tela Inicial*/}
                 <div className="cardUse">
                     <div className="titleform">
-                        <h3>Tela Inicial</h3>
+                        <h2>Tela Inicial</h2>
                         <div className="retangle_1"></div>
                     </div>
                     <div className="card-imagem">
@@ -56,7 +56,7 @@ export default function ComoUsar() {
                 {/* Imagem da Tela Receita*/}
                 <div className="cardUse">
                     <div className="titleform">
-                        <h3>Tela Receita</h3>
+                        <h2>Tela Receita</h2>
                         <div className="retangle_1"></div>
                     </div>
                     <div className="card-imagem">
@@ -79,7 +79,7 @@ export default function ComoUsar() {
                 {/* Imagem da Tela de Busca*/}
                 <div className="cardUse">
                     <div className="titleform">
-                        <h3>Tela de Perfil</h3>
+                        <h2>Tela de Perfil</h2>
                         <div className="retangle_1"></div>
                     </div>
                     <div className="card-imagem">
@@ -101,7 +101,7 @@ export default function ComoUsar() {
                 {/* Imagem da Tela de Cadastro*/}
                 <div className="cardUse">
                     <div className="titleform">
-                        <h4>Tela de pesquisa</h4>
+                        <h2>Tela de pesquisa</h2>
                         <div className="retangle_1"></div>
                     </div>
                     <div className="card-imagem">
@@ -118,8 +118,8 @@ export default function ComoUsar() {
                                 pesquisa!
                             </p>
                         </div>
-                        <div className="containermain_4">
-                            <div className="retangle_4-1"></div>
+                        <div className="big_containermain">
+                            <div className="big_retangle"></div>
                             <div className="texts">
                                 <h5>Pesquisa por ingredientes</h5>
                                 <p>
@@ -136,17 +136,15 @@ export default function ComoUsar() {
                 {/* Imagem da Tela de Cadastro Receita*/}
                 <div className="cardUse">
                     <div className="titleform">
-                    <h5>Tela de cadastro de receitas</h5>
-                    <div className="retangle_1"></div>
+                        <h2>Tela de cadastro de receitas</h2>
+                        <div className="retangle_1"></div>
                     </div>
                     <div className="card-imagem">
                         <img className="previa" src={AddReceita} />
                         <img src={animeAddReceita} />
                     </div>
                     <div className="texto">
-                        
                         <div className="containermain_5">
-                           
                             <p>
                                 Como diz o próprio nome, caso você seja um cozinheiro nato, você
                                 pode mostrar ao mundo suas receitas, colocando fotos, videos, passo
