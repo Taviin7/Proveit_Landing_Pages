@@ -44,7 +44,8 @@ function App() {
       {isMobile && <ComoUsarMobile />}
 
       {isMobile ? null : <CardIntegrantes />}
-      {isMobile && <CardIntegrantesMobile />}
+      {isMobile && <CardIntegrantesMobile/>}
+      
       <Footer />
     </div>
   );

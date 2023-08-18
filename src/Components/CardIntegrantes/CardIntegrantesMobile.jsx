@@ -43,13 +43,12 @@ export default function CardIntegrantes() {
                     </div>
                 </div>
             </div>
+            <div className="title-ourteam">
+                <h1 className="font-WhiteOur3">Our</h1>
+                <h1 className="font-OrangeTeam3">TEAM</h1>
+            </div>
             <div className="container2">
                 <div className="container-ourteam">
-                    <div className="title-ourteam">
-                        <h1 className="font-WhiteOur2">Our</h1>
-                        <h1 className="font-OrangeTeam2">TEAM</h1>
-                    </div>
-
                     <div className="boxIntegrantes">
                         <Card
                             integrante="Romario Silva"
