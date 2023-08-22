@@ -3,11 +3,12 @@
     .section5_mobile {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         background-image: url("./Imgs/fundo-boltneva.png");
         width: 100%;
-        height: 250vh;
+        height: 210vh;
+        margin-bottom: -90px;
         /* max-height: 1300px; */
         /* background-repeat: no-repeat; */
         background-size: cover;
@@ -20,12 +21,12 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-        margin-top: 12%;
+        margin-top: 27%;
         width: 100%;
         height: 43%;
     }
 
-    .container_logos{
+    .container_logos {
         display: flex;
         margin-top: 5%;
         width: 351px;
@@ -70,16 +71,47 @@
     }
 
     .section5_mobile .boxIntegrantes {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        color: #fff;
-        margin-top: -5%;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin-top: -26%;
     }
 
     .section5_mobile .container-ourteam {
         display: flex;
-        flex-direction: column;
-        margin-top: -5%;
+        justify-content: center;
+        width: 100%;
+        height: 450px;
+    }
+
+    .cardRomario {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardLucas {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardMarcos {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardRenan {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardRaul {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardOtavio {
+        display: flex;
+        margin-left: 30%;
     }
 
     .section5_mobile .font-OrangeTeam {
@@ -90,6 +122,7 @@
 
     .section5_mobile .title-ourteam {
         text-align: center;
+        /* margin-top: 20px; */
         width: 360px;
         height: 200px;
     }

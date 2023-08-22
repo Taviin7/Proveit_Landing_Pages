@@ -11,6 +11,7 @@ import ComoUsarMobile from './Components/ComoUsar/ComoUsarMobile';
 import CardIntegrantes from './Components/CardIntegrantes/CardIntegrantes';
 import CardIntegrantesMobile from './Components/CardIntegrantes/CardIntegrantesMobile';
 import Footer from './Components/Footer/Footer';
+import FooterMobile from './Components/Footer/FooterMobile';
 
 
 function App() {
@@ -44,9 +45,10 @@ function App() {
       {isMobile && <ComoUsarMobile />}
 
       {isMobile ? null : <CardIntegrantes />}
-      {isMobile && <CardIntegrantesMobile/>}
-      
-      <Footer />
+      {isMobile && <CardIntegrantesMobile />}
+
+      {isMobile ? null : <Footer />}
+      {isMobile && <FooterMobile />}
     </div>
   );
 }

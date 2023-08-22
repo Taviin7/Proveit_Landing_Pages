@@ -12,6 +12,13 @@ import raul from "./Imgs/raul.png";
 import otavio from "./Imgs/otavio.png";
 import devlare from "./Imgs/devlare.png";
 import proveit from "./Imgs/proveitWhite.png";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, A11y } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 
 export default function CardIntegrantes() {
 
@@ -47,66 +54,100 @@ export default function CardIntegrantes() {
                 <h1 className="font-WhiteOur3">Our</h1>
                 <h1 className="font-OrangeTeam3">TEAM</h1>
             </div>
-            <div className="container2">
-                <div className="container-ourteam">
-                    <div className="boxIntegrantes">
-                        <Card
-                            integrante="Romario Silva"
-                            função="Frontend"
-                            imagem={romario}
-                            github={github}
-                            instagram={instagram}
-                            linkedin={linkedin}
-                            linkinstagram={"https://www.instagram.com/_zroma_/"}
-                            linkgithub={"https://github.com/romagrinho"}
-                            linklinkedin={"https://br.linkedin.com/in/romario-silva-53371224b"}
-                        />
-                        <Card
-                            integrante="Lucas Ferreira"
-                            função="Frontend"
-                            imagem={lucas}
-                            github={github}
-                            instagram={instagram}
-                            linkgithub={"https://github.com/404lucas"}
-                            linkinstagram={"https://www.instagram.com/luucaslul/"}
-                        />
-                        <Card
-                            integrante="Marcos Alves"
-                            função="Frontend"
-                            imagem={marcos}
-                            github={github}
-                            instagram={instagram}
-                            linkinstagram={"https://www.instagram.com/marquinhos.jpeg/"}
-                            linkgithub={"https://github.com/marquinhosjpg"}
-                        />
-                        <Card
-                            integrante="Renan Rodrigues"
-                            função="Backend"
-                            imagem={renan}
-                            github={github}
-                            instagram={instagram}
-                            linkinstagram={"https://www.instagram.com/renanroliveira_/"}
-                            linkgithub={"https://github.com/renan328"}
-                        />
-                        <Card
-                            integrante="Raul Murilo"
-                            função="Backend"
-                            imagem={raul}
-                            instagram={instagram}
-                            linkinstagram={"https://www.instagram.com/rraul.mav/"}
-                        />
-                        <Card
-                            integrante="Otavio Lago"
-                            função="Backend"
-                            imagem={otavio}
-                            github={github}
-                            instagram={instagram}
-                            linkinstagram={"https://www.instagram.com/taviin9_/"}
-                            linkgithub={"https://github.com/Taviin7"}
-                        />
-                    </div>
+
+            <div className="container-ourteam">
+                <div className="boxIntegrantes">
+                    <Swiper
+                        modules={[Navigation, Pagination, A11y]}
+                        spaceBetween={-10}
+                        slidesPerView={1}
+                        navigation
+                        pagination={{ clickable: true }}
+                        onSwiper={(swiper) => console.log(swiper)}
+                        onSlideChange={() => console.log('slide change')}
+                    >
+                        <SwiperSlide>
+                            <div className="cardRomario">
+                                <Card
+                                    integrante="Romario Silva"
+                                    função="Frontend"
+                                    imagem={romario}
+                                    github={github}
+                                    instagram={instagram}
+                                    linkedin={linkedin}
+                                    linkinstagram={"https://www.instagram.com/_zroma_/"}
+                                    linkgithub={"https://github.com/romagrinho"}
+                                    linklinkedin={"https://br.linkedin.com/in/romario-silva-53371224b"}
+                                />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="cardLucas">
+                                <Card
+                                    integrante="Lucas Ferreira"
+                                    função="Frontend"
+                                    imagem={lucas}
+                                    github={github}
+                                    instagram={instagram}
+                                    linkgithub={"https://github.com/404lucas"}
+                                    linkinstagram={"https://www.instagram.com/luucaslul/"}
+                                />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="cardMarcos">
+                                <Card
+                                    integrante="Marcos Alves"
+                                    função="Frontend"
+                                    imagem={marcos}
+                                    github={github}
+                                    instagram={instagram}
+                                    linkinstagram={"https://www.instagram.com/marquinhos.jpeg/"}
+                                    linkgithub={"https://github.com/marquinhosjpg"}
+                                />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="cardRenan">
+                                <Card
+                                    integrante="Renan Rodrigues"
+                                    função="Backend"
+                                    imagem={renan}
+                                    github={github}
+                                    instagram={instagram}
+                                    linkinstagram={"https://www.instagram.com/renanroliveira_/"}
+                                    linkgithub={"https://github.com/renan328"}
+                                />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="cardRaul">
+                                <Card
+                                    integrante="Raul Murilo"
+                                    função="Backend"
+                                    imagem={raul}
+                                    instagram={instagram}
+                                    linkinstagram={"https://www.instagram.com/rraul.mav/"}
+                                />
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="cardOtavio">
+                                <Card
+                                    integrante="Otavio Lago"
+                                    função="Backend"
+                                    imagem={otavio}
+                                    github={github}
+                                    instagram={instagram}
+                                    linkinstagram={"https://www.instagram.com/taviin9_/"}
+                                    linkgithub={"https://github.com/Taviin7"}
+                                />
+                            </div>
+                        </SwiperSlide>
+                    </Swiper>
                 </div>
             </div>
+
         </section>
     );
 }
