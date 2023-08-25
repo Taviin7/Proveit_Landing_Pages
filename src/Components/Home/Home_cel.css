@@ -56,9 +56,11 @@
 
     /* General sidebar styles */
     .section1_mobile .bm-menu {
-        background: #373a47;
+        /* background: #373a47; */
         padding: 2.5em 1.5em 0;
         font-size: 1.15em;
+        background:rgba(0, 0, 0, 0.600);
+        backdrop-filter: blur(3px);
     }
 
     /* Morph shape necessary with bubble or elastic */
@@ -75,6 +77,20 @@
     /* Individual item */
     .section1_mobile .bm-item {
         display: inline-block;
+        padding: 5%;
+        text-align: left;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'raleway-bold';
+    }
+
+    .section1_mobile .bm-item:hover {
+        display: inline-block;
+        text-decoration: none;
+        color: #FF7152;
+        transform: scale(0.9);
+        font-family: 'raleway-bold';
+        transition: 0.3s;
     }
 
     /* Styling of overlay */
@@ -195,7 +211,7 @@
 
     .section1_mobile .Box_BtnDownload {
         width: 50%;
-        /* margin-top: 4%; */
+        margin-top: 4%;
     }
 
     .section1_mobile .BtnDownload {

@@ -160,10 +160,13 @@ header {
   opacity: 66%;
 }
 
-.Box_BtnDownload {
-  width: 30%;
+.Download_Icon {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
   margin-top: 4%;
 }
+
 
 .BtnDownload {
   width: 100%;
