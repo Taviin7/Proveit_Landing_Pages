@@ -7,36 +7,10 @@ import "./Home_tablet.css";
 import InfoIcon from './Imgs/info_icon.png';
 import Logo from "./Imgs/proveitLogo.png";
 import negao from "./Imgs/negao.png";
+import cozinhando from "./Imgs/cozinhando.gif";
 import BtnDownload from "./Imgs/Download_button 1.png";
 
 export default function Home() {
-
-  const [popupOpen, setPopupOpen] = useState(false);
-
-  const openPopup = () => {
-    setPopupOpen(true);
-  };
-
-  const closePopup = () => {
-    setPopupOpen(false);
-  };
-
-  const IconComponent = ({ onClick }) => (
-    <div className="icon" onClick={onClick}>
-      <img src={InfoIcon} alt="Info Icon" />
-    </div>
-  );
-
-  const PopupComponent = ({ isOpen, onClose }) => (
-    <Popup open={isOpen} onClose={onClose} modal>
-      <div className="popup-content">
-        {/* Coloque suas informações aqui */}
-        <p>Só queremos avisar que devido a nossa API estar na nuvem,
-          a nuvem esta "desligada" e graças a esse importudo,
-          o nosso aplicativo só esta funcionando localmente, mas com certeza convido você a baixar o app.</p>
-      </div>
-    </Popup>
-  );
 
   return (
     <section className="section1" id="Home">
@@ -78,8 +52,17 @@ export default function Home() {
               <a className="Box_BtnDownload" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
                 <img className="BtnDownload" src={BtnDownload} />
               </a>
-              <IconComponent onClick={openPopup} />
-              <PopupComponent isOpen={popupOpen} onClose={closePopup} />
+              <div className="pop_up ">
+              <Popup trigger={<img src={InfoIcon} className="img_infoicon"/>} position="right center">
+                <div className="back_gif">
+                  <img className="gif" src={cozinhando}/>
+                  <h2 className="title_gif">Aviso!</h2>
+                </div>
+                <div className="text_popup">Só queremos avisar que devido a nossa API estar na nuvem,
+                  a nuvem esta "desligada" e graças a esse importudo,
+                  o nosso aplicativo só esta funcionando localmente, mas com certeza convido você a <span className="text_popup2">baixar o app</span>.</div>
+              </Popup>
+              </div>
             </div>
           </div>
           <div className="imgBox">

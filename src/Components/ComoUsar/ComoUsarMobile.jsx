@@ -1,4 +1,6 @@
 import React from "react";
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 import "./ComoUsar_cel.css";
 import Home from "./Imgs/home.png";
 import animeHome from "./Imgs/Home.gif";
@@ -10,6 +12,8 @@ import Pesquisa from "./Imgs/Pesquisa1.png";
 import animePesquisa from "./Imgs/Tela de Pesquisa.gif";
 import AddReceita from "./Imgs/Cad_Receita.png";
 import animeAddReceita from "./Imgs/Add_Receita.gif";
+import InfoIcon from "./Imgs/icon_infoblack.png";
+import touchgif from "./Imgs/touch.gif";
 
 export default function ComoUsar() {
     return (
@@ -20,6 +24,7 @@ export default function ComoUsar() {
                     <h1 className="font-Orange">usar?</h1>
                 </div>
             </div>
+            <img className="gif" src={touchgif} />
             <div className="lesons_container">
                 {/* Imagem da Tela Inicial*/}
                 <div className="cardUse">

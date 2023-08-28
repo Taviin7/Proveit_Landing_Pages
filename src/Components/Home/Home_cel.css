@@ -12,7 +12,7 @@
         background-repeat: no-repeat;
         height: 100vh;
         flex-direction: column;
-        
+
     }
 
     .section1_mobile header {
@@ -20,6 +20,26 @@
         justify-content: space-between;
         width: 100%;
         height: 12%;
+    }
+
+    .logo_title{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .Logo_Orange{
+        height: 10%;
+    }
+
+    .bm-logotitle{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .bm-imgOrange{
+        height: 60px;
     }
 
     .section1_mobile .bm-burger-button {
@@ -59,7 +79,7 @@
         /* background: #373a47; */
         padding: 2.5em 1.5em 0;
         font-size: 1.15em;
-        background:rgba(0, 0, 0, 0.600);
+        background: rgba(0, 0, 0, 0.600);
         backdrop-filter: blur(3px);
     }
 
@@ -209,11 +229,6 @@
         opacity: 66%;
     }
 
-    .section1_mobile .Box_BtnDownload {
-        width: 50%;
-        margin-top: 4%;
-    }
-
     .section1_mobile .BtnDownload {
         width: 100%;
     }
@@ -223,12 +238,71 @@
         transition: 0.2s;
     }
 
+    .section1_mobile .bm-BtnDownload {
+        width: 80%;
+    }
+
+    .section1_mobile .bm-BtnDownload:hover {
+        scale: 1.2;
+        transition: 0.2s;
+    }
+
     .section1_mobile .imgBox {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
         height: 60%;
+    }
+
+    .section1_mobile .Download_Icon {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin-top: 3%;
+    }
+
+    .section1_mobile .popup-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 270px;
+        width: 220px;
+        padding: 10px;
+    }
+
+    .section1_mobile .pop_up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5px;
+    }
+
+    .section1_mobile .img_infoicon {
+        height: 50%;
+    }
+
+    .section1_mobile .img_infoicon:hover {
+        scale: 1.2;
+        transition: 0.2s;
+    }
+
+    .section1_mobile .back_gif {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+        margin-left: 5px;
+    }
+
+    .section1_mobile .gif {
+        height: 100%;
+        
+    }
+
+    .section1_mobile .title_gif {
+        font-family: "raleway-bold";
     }
 
     .section1_mobile .imgBox img {

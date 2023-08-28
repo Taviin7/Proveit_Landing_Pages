@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { push as Menu } from 'react-burger-menu';
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 import "./Home_cel.css";
 import Logo from "./Imgs/proveitLogo.png";
 import negao from "./Imgs/negao.png";
+import cozinhando from "./Imgs/cozinhando.gif";
+import InfoIcon from './Imgs/info_icon.png';
 import BtnDownload from "./Imgs/Download_button 1.png";
+import LogoOrange from "./Imgs/logoOrange.png";
 
 export default function Home() {
     return (
@@ -15,6 +20,10 @@ export default function Home() {
                     </div>
                     <div className="hamburguermenu">
                         <Menu right>
+                            <div className="bm-logotitle">
+                                <img className="bm-imgOrange" src={LogoOrange}/>
+                              {/*   <h2>Proveit!</h2> */}
+                            </div>
                             <a id="#nosso-objetivo" className="menu-item" href="#nosso-objetivo">
                                 Nosso Objetivo
                             </a>
@@ -26,6 +35,9 @@ export default function Home() {
                             </a>
                             <a id="#quem-somos" className="menu-item" href="#quem-somos">
                                 Quem Somos
+                            </a>
+                            <a className="bm-Box_BtnDownload" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
+                                <img className="bm-BtnDownload" src={BtnDownload} />
                             </a>
                         </Menu>
                     </div>
@@ -47,13 +59,26 @@ export default function Home() {
                         <span className="subtitleBox">
                             Nunca foi tão fácil encontrar uma receita!
                         </span>
-                        <a className="Box_BtnDownload" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
-                            <img className="BtnDownload" src={BtnDownload} />
-                        </a>
+                        <div className="Download_Icon">
+                            <a className="Box_BtnDownload" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
+                                <img className="BtnDownload" src={BtnDownload} />
+                            </a>
+                            <div className="pop_up ">
+                                <Popup trigger={<img src={InfoIcon} className="img_infoicon" />} position="bottom center">
+                                    <div className="back_gif">
+                                        <img className="gif" src={cozinhando} />
+                                        <h2 className="title_gif">Aviso!</h2>
+                                    </div>
+                                    <div className="text_popup">Só queremos avisar que devido a nossa API estar na nuvem,
+                                        a nuvem esta "desligada" e graças a esse importudo,
+                                        o nosso aplicativo só esta funcionando localmente, mas com certeza convido você a <span className="text_popup2">baixar o app</span>.</div>
+                                </Popup>
+                            </div>
+                        </div>
                     </div>
-                    {<div className="imgBox">
+                    <div className="imgBox">
                         <img src={negao} />
-                    </div>}
+                    </div>
                 </div>
             </div>
         </section>

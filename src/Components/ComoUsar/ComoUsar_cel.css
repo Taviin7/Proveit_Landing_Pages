@@ -16,7 +16,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-top: 42%;
+        margin-top: 30%;
         height: 87%;
     }
 
@@ -32,6 +32,10 @@
         font-size: 85px;
         color: #505050;
 
+    }
+
+    .gif{
+    height: 80px;
     }
 
     .section4_mobile .font-Orange {
