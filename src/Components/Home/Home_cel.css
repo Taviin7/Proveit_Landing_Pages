@@ -81,8 +81,10 @@
 
     /* General sidebar styles */
     .section1_mobile .bm-menu {
+        overflow: hidden;
         /* background: #373a47; */
         padding: 2.5em 1.5em 0;
+        width: 410px;
         font-size: 1.15em;
         background: rgba(0, 0, 0, 0.600);
         backdrop-filter: blur(3px);
@@ -96,6 +98,7 @@
     /* Wrapper for item list */
     .section1_mobile .bm-item-list {
         color: #b8b7ad;
+        width: 70%;
         /* padding: 0.8em; */
     }
 
