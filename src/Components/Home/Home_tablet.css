@@ -1,20 +1,132 @@
 /* Estilos para tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
     .section1 {
-        height: 100vh;
-        width: 100%;
         display: flex;
+        width: 100%;
+        height: 100vh;
+        overflow-x: hidden;
     }
 
-    .fundo {
+    .section1_mobile .fundo {
+        display: flex;
+        width: 100%;
         background-repeat: no-repeat;
         height: 100vh;
-        width: 100%;
-        display: flex;
         flex-direction: column;
+
     }
 
-    .fundo::before {
+    .section1_mobile header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 12%;
+    }
+
+    .logo_title {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .Logo_Orange {
+        height: 10%;
+    }
+
+    .bm-logotitle {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .bm-logotitle h2 {
+        font-family: "raleway-extrabold";
+        color: #FF7152;
+    }
+
+    .bm-imgOrange {
+        height: 60px;
+    }
+
+    .section1_mobile .bm-burger-button {
+        position: fixed;
+        width: 36px;
+        height: 30px;
+        top: 36px;
+    }
+
+    /* Color/shape of burger icon bars */
+    .section1_mobile .bm-burger-bars {
+        background: rgba(255, 255, 255, 0.6);
+    }
+
+    .section1_mobile .bm-burger-bars-hover {
+        background: #FF7152;
+    }
+
+    .section1_mobile .bm-cross-button {
+        height: 24px;
+        width: 24px;
+    }
+
+    /* Color/shape of close button cross */
+    .section1_mobile .bm-cross {
+        background: #FF7152;
+        width: 10px;
+    }
+
+    .section1_mobile .bm-menu-wrap {
+        position: fixed;
+        height: 100%;
+    }
+
+    /* General sidebar styles */
+    .section1_mobile .bm-menu {
+        /* background: #373a47; */
+        padding: 2.5em 1.5em 0;
+        font-size: 1.15em;
+        background: rgba(0, 0, 0, 0.600);
+        backdrop-filter: blur(3px);
+    }
+
+    /* Morph shape necessary with bubble or elastic */
+    .section1_mobile .bm-morph-shape {
+        fill: #373a47;
+    }
+
+    /* Wrapper for item list */
+    .section1_mobile .bm-item-list {
+        color: #b8b7ad;
+        /* padding: 0.8em; */
+    }
+
+    /* Individual item */
+    .section1_mobile .bm-item {
+        display: inline-block;
+        padding: 4%;
+        text-align: left;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'raleway-medium';
+    }
+
+    .section1_mobile .bm-item:hover {
+        display: inline-block;
+        text-decoration: none;
+        color: #FF7152;
+        /*  transform: scale(0.9); */
+        font-family: 'raleway-bold';
+        transition: 0.3s;
+    }
+
+    /* Styling of overlay */
+    .section1_mobile .bm-overlay {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+
+
+    .section1_mobile .fundo::before {
         content: "";
         background-image: url("./Imgs/mesafundo.jpg");
         background-size: cover;
@@ -28,154 +140,205 @@
     }
 
 
-    header {
-        width: 100%;
-        height: 15%;
+    .section1_mobile .hamburguermenu {
         display: flex;
+        height: 100%;
+        width: 35%;
+        justify-content: center;
     }
 
-    .logo {
-        height: 90%;
-        margin-left: 5%;
-        margin-right: 6%;
+    .section1_mobile .container_logo {
+        margin-left: 7%;
+        margin-right: 2%;
         margin-top: 0.5%;
     }
 
-    .navegation {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        justify-content: center;
-
-    }
-
-    .container_nav {
-        height: 20%;
-    }
-
-    .ancoras {
-        font-size: 24;
-        margin: 4%;
-        color: #fff;
-        font-family: 'raleway-semibold';
-        padding: 5px;
-        border-radius: 8px;
-        transition: 0.2s;
-    }
-
-    .ancoras:hover {
-        transition: 0.2s;
-        background-color: #fff;
-        color: #FF7152;
-    }
-
-    .baixeoapp {
-        color: #fff;
-        padding: 1.3%;
-        background-color: #FF7152;
-        border-radius: 40px;
-        font-size: 24;
-        text-align: center;
-        transition: 0.2;
-        margin-left: 8%;
-        text-decoration: none;
-        font-family: "raleway-extrabold";
-    }
-
-    .section1 .baixeoapp:hover {
-        transition: 0.2;
-        background-color: #fff;
-        color: #FF7152;
-    }
-
-    .container_main {
-        width: 100%;
+    .section1_mobile .logo {
         height: 100%;
+    }
+
+    .section1_mobile .section1 .baixeoapp:hover {
+        transition: 0.2;
+        background-color: #fff;
+        color: #FF7152;
+    }
+
+    .section1_mobile .container_main {
         display: flex;
+        flex-direction: column;
         align-items: center;
+
+        width: 100%;
+        height: 88%;
+
     }
 
-    .section1 .container {
+    .section1_mobile .container {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        position: relative;
-        z-index: 0;
-        width: 90%;
-        margin-left: 8%;
+        justify-content: flex-end;
+        margin-top: 15%;
+        width: 85%;
+        height: 35%;
     }
 
-    .section1 .titleBox1 {
+    .section1_mobile .titleBox1 {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        width: 55%;
+        width: 100%;
     }
 
-    .titleBox2 {
-        width: 33%;
+    .section1_mobile .titleBox2 {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: -2%;
+        width: 315px;
+        /* margin-top: -2%; */
     }
 
-    .wordmao {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-    }
-
-    .font-WhiteOpace {
+    .section1_mobile .font-WhiteOpace {
         font-family: 'raleway-bold';
-        line-height: 50%;
-        font-size: 250%;
-        opacity: 70%;
+        /* line-height: 50%; */
+        font-size: 35px;
+        /* opacity: 70%; */
         color: #fff;
     }
 
-    .fontOrange {
-        font-size: 380%;
-        color: blue;
+    .section1_mobile .fontOrange {
+        font-size: 53px;
+        color: #FF7152;
         font-family: "raleway-black";
     }
 
-    .font-White {
+    .section1_mobile .font-White {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 389%;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 53px;
         color: #fff;
         font-family: 'raleway-bold';
     }
 
-    .subtitleBox {
+    .section1_mobile .text-orange {
+        font-family: 'raleway-black';
+        color: #FF7152;
+    }
+
+    .section1_mobile .exclamacao {
+        font-family: "raleway-black";
+    }
+
+    .section1_mobile .subtitleBox {
         font-family: 'raleway-medium';
-        font-size: 100%;
-        margin-top: 1%;
+        font-size: 17px;
+        /* margin-top: 1%; */
         color: #fff;
         opacity: 66%;
     }
 
-    .BtnDownload {
-        width: 18%;
-        margin-top: 2%;
+    .section1_mobile .BtnDownload {
+        width: 100%;
     }
 
-    .BtnDownload:hover {
+    .section1_mobile .BtnDownload:hover {
         scale: 1.1;
         transition: 0.2s;
     }
 
-    .imgBox {
-        width: 20%;
-        margin-left: 55%;
-        position: absolute;
-        z-index: 1;
+    .section1_mobile .bm-BtnDownload {
+        width: 60%;
+
     }
 
-    .section1 .imgBox img {
-        height: 0%;
-        width: 180%;
+    .bm-Box_BtnDownload {
+        margin-top: -35%;
+    }
+
+    .section1_mobile .bm-BtnDownload:hover {
+        scale: 1.2;
+        transition: 0.2s;
+    }
+
+    .section1_mobile .imgBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: 60%;
+    }
+
+    .section1_mobile .Download_Icon {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin-top: 3%;
+    }
+
+    .section1_mobile .popup-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 270px;
+        width: 220px;
+        padding: 10px;
+    }
+
+    .section1_mobile .pop_up {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5px;
+    }
+
+    .section1_mobile .img_infoicon {
+        height: 60%;
+        width: 32px;
+    }
+
+    .section1_mobile .img_infoicon:hover {
+        scale: 1.2;
+        transition: 0.2s;
+    }
+
+    .section1_mobile .back_gif {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+        margin-left: 5px;
+    }
+
+    .section1_mobile .gif {
+        height: 100%;
+
+    }
+
+    .section1_mobile .title_gif {
+        font-family: "raleway-bold";
+    }
+
+    .section1_mobile .imgBox img {
+        margin-top: 5%;
+        width: 100%;
+        height: 95%;
+    }
+
+    .container_logos {
+        display: flex;
+        margin-top: 5%;
+        height: 22%;
+    }
+
+    .section1_mobile .hamburguermenu #img1 {
+        border-right: 5px solid #ffffff;
+        padding-right: 7%;
+        height: 20%;
+        margin-bottom: 3%;
+    }
+
+    .section1_mobile .hamburguermenu #img2 {
+        /*        margin-top: 4%; */
+        margin-left: 10%;
+        height: 35%;
     }
 }

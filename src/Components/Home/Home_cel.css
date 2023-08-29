@@ -22,28 +22,28 @@
         height: 12%;
     }
 
-    .logo_title{
+    .logo_title {
         display: flex;
         flex-direction: row;
         width: 90%;
     }
 
-    .Logo_Orange{
+    .Logo_Orange {
         height: 10%;
     }
 
-    .bm-logotitle{
+    .bm-logotitle {
         display: flex;
         flex-direction: row;
         width: 100%;
     }
 
-    .bm-logotitle h2{
+    .bm-logotitle h2 {
         font-family: "raleway-extrabold";
         color: #FF7152;
     }
 
-    .bm-imgOrange{
+    .bm-imgOrange {
         height: 60px;
     }
 
@@ -57,7 +57,6 @@
     /* Color/shape of burger icon bars */
     .section1_mobile .bm-burger-bars {
         background: rgba(255, 255, 255, 0.6);
-        opacity: 1;
     }
 
     .section1_mobile .bm-burger-bars-hover {
@@ -71,7 +70,8 @@
 
     /* Color/shape of close button cross */
     .section1_mobile .bm-cross {
-        background: #fff;
+        background: #FF7152;
+        width: 10px;
     }
 
     .section1_mobile .bm-menu-wrap {
@@ -113,7 +113,7 @@
         display: inline-block;
         text-decoration: none;
         color: #FF7152;
-       /*  transform: scale(0.9); */
+        /*  transform: scale(0.9); */
         font-family: 'raleway-bold';
         transition: 0.3s;
     }
@@ -245,10 +245,10 @@
 
     .section1_mobile .bm-BtnDownload {
         width: 60%;
-      
+
     }
 
-    .bm-Box_BtnDownload{
+    .bm-Box_BtnDownload {
         margin-top: -35%;
     }
 
@@ -309,7 +309,7 @@
 
     .section1_mobile .gif {
         height: 100%;
-        
+
     }
 
     .section1_mobile .title_gif {
@@ -336,7 +336,7 @@
     }
 
     .section1_mobile .hamburguermenu #img2 {
- /*        margin-top: 4%; */
+        /*        margin-top: 4%; */
         margin-left: 10%;
         height: 35%;
     }

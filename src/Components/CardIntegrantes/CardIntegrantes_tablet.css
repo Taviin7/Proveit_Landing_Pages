@@ -1,91 +1,135 @@
 /* Estilos para tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
-    .section5 {
+    .section5_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         background-image: url("./Imgs/fundo-boltneva.png");
         width: 100%;
-        /*   max-height: 1300px; */
+        height: 210vh;
+        margin-bottom: -90px;
+        /* max-height: 1300px; */
         /* background-repeat: no-repeat; */
         background-size: cover;
+        overflow-x: hidden;
         z-index: 1;
     }
 
-    .textofinal p {
-        color: #fff;
-        font-family: "raleway-semibold";
-        font-size: 135%;
-        text-align: justify;
-        margin-bottom: 10%;
-        padding-left: 7%;
-        padding-top: 5%;
-    }
-
-    .textfinal {
-        width: 35%;
-    }
-
-    .textofinal {
-        width: 100%;
-        margin-top: 3%;
+    .section5_mobile .containermain1 {
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 27%;
+        width: 100%;
+        height: 43%;
     }
 
-    .textofinal img {
-        height: 80px;
+    .container_logos {
+        display: flex;
+        margin-top: 5%;
+        width: 351px;
+        height: 150px;
+    }
+
+    .section5_mobile .texto_final p {
+        color: #fff;
+        font-family: "raleway-regular";
+        font-size: 25px;
+        text-align: justify;
+        width: 100%;
+    }
+
+    .section5_mobile .textfinal {
+        width: 100%;
+    }
+
+    .section5_mobile .texto_final {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .section5_mobile .texto_final img {
+        height: 33%;
         margin-top: 9%;
-        margin-right: 5%;
+        margin-left: 4%;
     }
 
-    .textofinal #img1 {
+    .section5_mobile .texto_final #img1 {
         border-right: 7px solid #ffffff;
         padding-right: 7%;
     }
 
-    .textofinal #img2 {
-        margin-left: -5%;
-        margin-top: 7.8%;
-        height: 110px;
+    .section5_mobile .texto_final #img2 {
+        margin-top: 4%;
+        margin-right: 10%;
+        height: 55%;
     }
 
-    .boxIntegrantes {
-        /* margin-left: 5%; */
-        display: grid;
-        grid-template-columns: auto auto auto;
-        color: #fff;
-        margin-top: -5%;
-    }
-
-    .container-ourteam {
+    .section5_mobile .boxIntegrantes {
         display: flex;
-        flex-direction: row;
-        margin-top: -5%;
+        height: 100%;
+        width: 100%;
+        margin-top: -26%;
     }
 
-    .title-ourteam {
-        margin-top: 15%;
-        text-align: center;
-        width: 900px;
-        height: 200px;
+    .section5_mobile .container-ourteam {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 450px;
     }
 
-    .font-OrangeTeam {
+    .cardRomario {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardLucas {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardMarcos {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardRenan {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardRaul {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .cardOtavio {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .section5_mobile .font-OrangeTeam {
         font-size: 180px;
         line-height: 30%;
         color: #FF7152;
     }
 
-    /* .font-WhiteOur {
-        padding-left: 15%;
-        text-align: left;
-        font-size: 100%;
-        opacity: 90%;
-        line-height: 150px;
-        color: #fff;
-      } */
+    .section5_mobile .title-ourteam {
+        text-align: center;
+        /* margin-top: 20px; */
+        width: 360px;
+        height: 200px;
+    }
 
-    .font-OrangeTeam2 {
-        font-size: 800%;
+
+    .section5_mobile .font-OrangeTeam3 {
+        font-size: 90px;
         line-height: 64%;
         color: #FF7152;
         margin-left: 15%;
@@ -93,39 +137,38 @@
         z-index: 1;
     }
 
-    .font-WhiteOur2 {
-        padding-left: 20%;
+    .section5_mobile .font-WhiteOur3 {
+        padding-left: 5%;
         text-align: left;
-        font-size: 600%;
+        font-size: 80px;
         opacity: 90%;
-        margin-top: 15%;
-        line-height: 60%;
+        line-height: 70%;
         color: #fff;
     }
 
-    .title-weare {
+    .section5_mobile .titleweare {
         display: flex;
         flex-direction: column;
-        align-items: left;
-        padding-left: 7%;
+        align-items: center;
+        width: 100%;
     }
 
-    .section5 .font-WhiteWe {
+    .section5_mobile .font-WhiteWe {
         margin-top: 5%;
-        font-size: 450%;
+        font-size: 90px;
         opacity: 90%;
         color: #fff;
         line-height: 60%;
-        margin-left: 40px;
+        margin-right: 20%;
         font-family: "raleway-extrabold";
     }
 
-    .section5 .font-OrangeAre {
-        font-size: 450%;
+    .section5_mobile .font-OrangeAre {
+        font-size: 80px;
         line-height: 30%;
         color: #FF7152;
-        padding-left: 11%;
         margin-top: -0.5%;
+        margin-left: 10%;
         font-family: "raleway-bold";
         z-index: 3;
     }

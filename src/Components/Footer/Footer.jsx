@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-scroll';
 import "./Footer.css";
-import "./Footer_cel.css";
 import "./Footer_tablet.css";
 import Logo from "./imgs/proveitWhiteFade.png";
 import btnDownload from "./imgs/Download_button 2.png";

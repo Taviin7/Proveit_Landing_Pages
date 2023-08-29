@@ -19,7 +19,7 @@
         width: 62%;
         height: 85%;
         margin-top: 8%;
-        margin-left: 35%;
+        margin-left: 19%;
     }
 
     .container-footer-MAIN {
@@ -38,7 +38,11 @@
     .boxFooter_main {
         display: flex;
         flex-direction: row;
-        width: 80%;
+        width: 75%;
+        height: 78%;
+        border-top: 5px solid #ffffffc4;
+        border-bottom: 5px solid #ffffffc4;
+        margin-top: 1.7%;
     }
 
 
@@ -46,13 +50,9 @@
         display: grid;
         grid-template-columns: auto auto;
         width: 50%;
-        height: 70%;
-        padding-top: 2%;
+        height: 80%;
         margin-left: 10%;
-        margin-top: 1.7%;
-        border-top: 5px solid #ffffffc4;
-        border-bottom: 5px solid #ffffffc4;
-        /* justify-content: center; */
+        margin-top: 2.5%;
     }
 
     .boxFooter a {
@@ -64,8 +64,8 @@
         color: #fff;
         padding-top: 4%;
         padding-bottom: 8%;
-        padding-right: 3%;
-        padding-left: 3%;
+        padding-right: 6%;
+        padding-left: 6%;
         border-radius: 8px;
         text-align: center;
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
@@ -81,20 +81,22 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-
         width: 28%;
-        height: 80.9%;
-        margin-top: 1.7%;
+        height: 80%;
+        margin-top: 1%;
         align-items: center;
         justify-content: center;
-        border-top: 5px solid #ffffffc4;
-        border-bottom: 5px solid #ffffffc4;
+    }
+
+    .btn_download {
+        display: flex;
+        width: 150px;
+        height: 50%;
     }
 
     .download {
         width: 80%;
         margin-left: 10%;
-        margin-bottom: 3%;
     }
 
     .download h1 {
@@ -112,8 +114,8 @@
 
     .download img {
         display: flex;
-        width: 70%;
-        height: 53%;
+        width: 100%;
+        height: 100%;
         margin-top: 3%;
     }
 
@@ -131,6 +133,4 @@
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
         margin-bottom: 1%;
     }
-
-
 }

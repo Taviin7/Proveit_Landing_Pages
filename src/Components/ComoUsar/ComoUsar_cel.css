@@ -36,6 +36,7 @@
 
     .gif{
     height: 80px;
+    margin-bottom: 1%;
     }
 
     .section4_mobile .font-Orange {
@@ -123,7 +124,7 @@
     .section4_mobile .titlemain {
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 325px;
         height: 150px;
         /*  margin-top: -35%; */
     }
