@@ -164,7 +164,7 @@ header {
   display: flex;
   flex-direction: row;
   width: 37%;
-  height: 23%;
+  height: 20%;
   margin-top: 3%;
 }
 
@@ -183,6 +183,9 @@ header {
   justify-content: center;
 }
 
+.img_infoicon{
+  height: 50%;
+}
 
 .img_infoicon:hover{
   scale: 1.2;
@@ -195,6 +198,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 75px;
+
 }
 
 .gif{
@@ -218,7 +222,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
+  width: 110%;
   height: 100%;
 }
 
@@ -227,9 +231,6 @@ header {
   height: 93%;
 }
 
-.img_infoicon{
-  height: 50%;
-}
 
 .text_popup{
   text-align: justify;

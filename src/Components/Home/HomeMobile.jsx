@@ -9,6 +9,8 @@ import cozinhando from "./Imgs/cozinhando.gif";
 import InfoIcon from './Imgs/info_icon.png';
 import BtnDownload from "./Imgs/Download_button 1.png";
 import LogoOrange from "./Imgs/logoOrange.png";
+import devlare from "./Imgs/devlare.png";
+import proveit from "./Imgs/proveitWhite.png";
 
 export default function Home() {
     return (
@@ -21,8 +23,8 @@ export default function Home() {
                     <div className="hamburguermenu">
                         <Menu right>
                             <div className="bm-logotitle">
-                                <img className="bm-imgOrange" src={LogoOrange}/>
-                              {/*   <h2>Proveit!</h2> */}
+                               {/*  <img className="bm-imgOrange" src={LogoOrange} /> */}
+                                  <h2>Proveit!</h2>
                             </div>
                             <a id="#nosso-objetivo" className="menu-item" href="#nosso-objetivo">
                                 Nosso Objetivo
@@ -36,6 +38,11 @@ export default function Home() {
                             <a id="#quem-somos" className="menu-item" href="#quem-somos">
                                 Quem Somos
                             </a>
+                            <div className="container_logos">
+                                <img src={devlare} id="img1" />
+
+                                <img src={proveit} id="img2" />
+                            </div>
                             <a className="bm-Box_BtnDownload" href="https://www.mediafire.com/file/j1jx3mrdmwwrjku/ProveitUsers.apk/file" target="_blank">
                                 <img className="bm-BtnDownload" src={BtnDownload} />
                             </a>

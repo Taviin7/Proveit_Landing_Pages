@@ -53,15 +53,15 @@ export default function Home() {
                 <img className="BtnDownload" src={BtnDownload} />
               </a>
               <div className="pop_up ">
-              <Popup trigger={<img src={InfoIcon} className="img_infoicon"/>} position="right center">
-                <div className="back_gif">
-                  <img className="gif" src={cozinhando}/>
-                  <h2 className="title_gif">Aviso!</h2>
-                </div>
-                <div className="text_popup">Só queremos avisar que devido a nossa API estar na nuvem,
-                  a nuvem esta "desligada" e graças a esse importudo,
-                  o nosso aplicativo só esta funcionando localmente, mas com certeza convido você a <span className="text_popup2">baixar o app</span>.</div>
-              </Popup>
+                <Popup trigger={<img src={InfoIcon} className="img_infoicon" />} position="right center">
+                  <div className="back_gif">
+                    <img className="gif" src={cozinhando} />
+                    <h2 className="title_gif">Aviso!</h2>
+                  </div>
+                  <div className="text_popup">Só queremos avisar que devido a nossa API estar na nuvem,
+                    a nuvem esta "desligada" e graças a esse importudo,
+                    o nosso aplicativo só esta funcionando localmente, mas com certeza convido você a <span className="text_popup2">baixar o app</span>.</div>
+                </Popup>
               </div>
             </div>
           </div>

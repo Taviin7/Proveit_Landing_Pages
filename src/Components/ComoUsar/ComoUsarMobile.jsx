@@ -12,7 +12,6 @@ import Pesquisa from "./Imgs/Pesquisa1.png";
 import animePesquisa from "./Imgs/Tela de Pesquisa.gif";
 import AddReceita from "./Imgs/Cad_Receita.png";
 import animeAddReceita from "./Imgs/Add_Receita.gif";
-import InfoIcon from "./Imgs/icon_infoblack.png";
 import touchgif from "./Imgs/touch.gif";
 
 export default function ComoUsar() {
