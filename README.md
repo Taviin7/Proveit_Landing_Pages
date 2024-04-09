@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# <img src="./frontend/src/assets/proveitIcon.png" height="50px"> ProveIt
+👋 _Bem-vindo(a) ao nosso projeto!_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🥘 O que é ProveIt?
+É o projeto de nós, **uma equipe de estudantes da Etec**, para um aplicativo de auxílio culinário. Nosso objetivo é **ajudar as pessoas** em seu ambiente doméstico com as suas refeições e **alimentação em geral**.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💭 Mas, como?
+A ideia por trás do nosso objetivo se baseia nas _**features**_. Estamos trabalhando para que as funcionalidades do ProveIt sejam de fácil uso, e, acima de tudo, **úteis** para o usuário final.
 
-### `npm test`
+**Principais funcionalidades incluem:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔎 _Pesquisa por ingredientes_
+- 🥪 _Identificação de receitas com ingredientes reaproveitáveis_
+- 🍗 _Identificação de calorias presentes_
+- 👤 _Feedback do usuário_
 
-### `npm run build`
+Entre outras!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👨‍💻 O desenvolvimento
+🤔 _Onde estamos?_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O nosso projeto já tem bases sólidas. Estamos em estágios avançados de desenvolvimento, com 90% das telas prontas, um banco de dados completo, diversas features já funcionais e um back-end em desenvolvimento ativo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Tecnologias usadas
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height=40/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" height=40/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height=40/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height=40/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height=40/> 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📆 Quando?
+O lançamento do aplicativo é previsto para **meados de junho / julho**, estando disponível para dispositivos Android, também na PlayStore. Segue o link da página do nosso aplicativo: <<a href="http://www.proveitapp.vercel.app"> clique aqui </a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Estamos ansiosos para compartilhar mais com vocês!
